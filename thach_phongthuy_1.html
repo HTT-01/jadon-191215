@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tao Menu</title>
+    <!-- Liên kết với thư viện css; jquery và bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.4.1.min.js">
+    </script>
+    <script src="js/bootstrap.min.js">
+    </script>
+
+    <style>
+        body {
+            font-family: arial, tahoma;
+            font-size: 12px;
+        }
+
+        #main {
+            width: 1000px;
+            padding: 0;
+            margin: auto;
+        }
+
+        #head {
+            height: 100px;
+            background-color: goldenrod;
+            border: 1px solist red;
+            margin-bottom: 5px;
+        }
+
+        #head-link {
+            height: 30px;
+            line-height: 30px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border: 1px solist red;
+            margin-bottom: 5px;
+            clear: both;
+        }
+
+        #left {
+            width: 200px;
+            height: 600px;
+            border: 1px solist #CDCDCD;
+            float: left;
+            background-color: #004C00;
+            margin-bottom: 5px;
+        }
+
+        #content {
+            width: 600px;
+            height: 600px;
+            border: 1px solist red;
+            float: left;
+            margin-left: 5px;
+            margin-right: 5px;
+
+            background-color: yellowgreen;
+        }
+
+        #right {
+            width: 190px;
+            height: 600px;
+            border: 1px solis red;
+            float: right;
+
+            background-color: #004c00;
+        }
+
+        #footer {
+            height: 50px;
+            clear: both;
+            border: 1px solist rgb(205, 205, 205);
+            background-color: rgb(251, 255, 248);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="main">
+        <div id="head">
+            <nav class="navbar navbar-default" style="background-color: burlywood;">
+                <div class="col-md-12">
+                    <div class="col-md-2">
+                        <img src="images/thai cuc hoa giap.jpg">
+                    </div>
+
+                    <h3 style="color: red;">
+                        HẰNG SỐ LUÂN HỒI VÀ THÁI CỰC HOA GIÁP
+                    </h3>
+                    <h4><i>
+                            The best sell book since 2008</i>
+                    </h4>
+                    <navlayout style="background-color: green;">
+                        <ul id="navlayout">
+                            <li><a href='TCHG_2_Registration.html'>Home</a></li>
+                            <li><a href='TCHG_ 1_ Registration.html'>Contract us</a></li>
+                            <li><a href='#'>About us</a></li>
+                            <li><a href='#'>FQAs</a></li>
+                            <li><a href='#'>Ung dung</a></li>
+                            <li><a href='#'>Lich phong thuy</a></li>
+                            <li><a href='#'>Du bao ca nhan</a></li>
+                            <li><a href='#'>Dinh vi phong thuy</a></li>
+                            <li><a href='#'>Noi dung</a></li>
+                        </ul>
+                    </navlayout>
+
+                    <table>
+                        <tr style="text-align: left;">
+                            <td>
+                                <b>
+                                    <h4> Books are now in store!</h4>
+                                </b>
+
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav">
+
+                        <li class="dropdown">
+                            <a href="" data-toggle="dropdown" class="dropdown-toggle">Address<span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="TCHG-Home.html"></a>55 Nguyễn Huệ, Q1, HCMC</li>
+                                <li><a href=""></a>62 Lê Lợi, Q1, HCMC</li>
+                                <li><a href=""></a>701 Phạm Văn Chiêu, P.13, GV, HCMC</li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="" data-toggle="dropdown" class="dropdown-toggle">Product<span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href=""></a>Nhà tiên tri</li>
+                                <li><a href=""></a>Quy tắc tìm bản mạng</li>
+                                <li><a href=""></a>Định vị phong thủy</li>
+                                <li><a href=""></a>Sách HSLH&TCHG</li>
+                                <li><a href=""></a>Tổ chức nhóm</li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown">
+                            <a href="" data-toggle="dropdown" class="dropdown-toggle">Events<span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="TCHG-Home.html"></a>New Websites</li>
+                                <li><a href=""></a>New registers</li>
+                                <li><a href=""></a>New Events</li>
+                            </ul>
+                        </li>
+                </div>
+            </nav>
+        </div>
+
+        <div id="head-link" style="align-self: auto;"></div>
+
+
+        <div id="left" style="color: red;">
+            <h4>REGISTER</h4>
+            <section id="main1">
+                <form action="" method="get" id="form" name="form">
+                    <label for="">Login name</label>
+                    <br>
+                    <input type="text" name="txtNNT" id="txtNNT" placeholder=" Enter Name" autofocus required value="">
+                    <br>
+                    <label for="">Password</label>
+                    <br>
+                    <input type="password" name="txtP" id="txtP" placeholder=" Enter Password" required value="">
+                    <br>
+                    <label for="">Password confirm<span>*</span></label>
+                    <br>
+                    <input type="password" name="txtPC" id="txtPC" placeholder=" Enter Password Confirm" required
+                        value="">
+                    <br>
+                    <label for="">Full name</label>
+                    <br>
+                    <input type="text" name="txtFN" id="txtFN" placeholder=" Enter Full Name" required value="">
+                    <br>
+                    <label for="">Gender</label>
+                    <input type="radio" name="1" id="rdMale" checked>Male
+                    <input type="radio" name="1" id="rdFemail">Female
+                    <br>
+                    <label for="">Date of birth</label>
+                    <br>
+                    <input type="date" name="txtDOB" id="txtDOB" value="">
+                    <br>
+                    <label for="">Email<span>*</span></label>
+                    <br>
+                    <input type="email" name="txtE" id="txtE" placeholder=" Enter Email" required value="">
+                    <br>
+                    <label for="">Phone number</label>
+                    <br>
+                    <input type="tel" name="txtPN" id="txtPN" value="">
+                    <br>
+                    <label for="">Hobbies</label>
+                    <br>
+                    <input type="checkbox" name="2" id="HBSW">Swimming
+                    <input type="checkbox" name="2" id="HBD">Dangcing
+                    <input type="checkbox" name="2" id="HBS">Shopping
+                    <br>
+                    <label class="textarea" for="">
+                        <h4>Comment</h4>
+                    </label>
+                    <textarea name="" id="" cols="40"
+                        rows="3">This Website developed for book HSLH & TCHG writen by Dr.Nguyen Ngoc Thach</textarea><br>
+                    <input type="submit" value="Submit" id="" name="">
+                    <input type="reset" value="Reset" id="" name="" />
+                </form>
+            </section>
+
+
+            <script>
+                document.getElementById("form").onsubmit = function () {
+                    var name = document.getElementById("txtNNT").value.trim();
+
+                    var r = /^[a-z0-9]{6,}$/ig;
+                    if (r.test(name) == false) {
+                        alert("Ten dang nhap ko hop le!Phai co it nhat 6 ky tu tro len");
+                        return false;
+                    }
+
+                    var password = document.getElementById("txtP").value.trim();
+                    var r = /^\d{6,}$/;
+                    if (r.test(password) == false) {
+                        alert("Mat khau khong hop le!.Phai co it nhat 6 con so tro len");
+                        return false;
+                    }
+
+                    var passconfirm = document.getElementById("txtPC").value.trim();
+                    if (password !== passconfirm) {
+                        alert("Mat khau khong dung nhu Ban da dang nhap.");
+                        return false;
+                    }
+
+                    var phonenumber = document.getElementById("txtPN").value;
+                    var r = /^\d{8,}$/;
+                    if (r.test(phonenumber) == false) {
+                        alert("So dien thoai phai la day so co it nhat 8 so.");
+                        return false;
+                    }
+
+                    alert("Ok! cogletulation, your account has created successfully");
+                }
+
+                document.getElementById("btgo").onclick = function () {
+                    location.assign("In thong tin ca nhan.html")
+                }
+
+                document.getElementById("btgogo").onclick = function () {
+                    location.assign("/Session9 Table in CSS/D_09 Bang Lac thu hoa giap.html")
+                }
+
+                document.getElementById("bth").onclick = function () {
+                    location.assign("BaiThipretest2.html")
+                }
+                document.getElementById("bth").onsubmit = function () {
+                    var ten = document.getElementById("txtFN").value;
+                    var sdt = document.getElementById("txtPN").value;
+                    var mn = document.getElementById("cbSP").value;
+                    var ung = document.getElementById("cbSPr").value;
+                }
+            </script>
+        </div>
+
+        <div id="content">
+            <style>
+                #navlayout {
+                    width: 100%;
+                    float: left;
+                    margin: 0 0 3em 0;
+                    padding: 0;
+                    list-style: none;
+                    background-color: #f2f2f2;
+                    border-bottom: 1px solid #ccc;
+                    border-top: 1px solid #ccc
+                }
+
+                #navlayout li {
+                    float: left;
+                }
+
+                #navlayout li a {
+                    display: block;
+                    padding: 5px 6px;
+                    text-decoration: none;
+                    font-weight: bold;
+                    color: red;
+                    border-right: 2px solid rgb(27, 4, 68);
+                }
+
+                #navlayout li a:hover {
+                    color: rgb(255, 255, 255);
+                }
+
+                .hinh {
+                    width: 95%;
+                    margin: auto;
+                    text-align: center;
+                }
+
+                .hinh img {
+                    width: 95%;
+                }
+            </style>
+
+            <table class="hinh" style="align-self: auto">
+                <style>
+                    img {
+                        width: 90%;
+                        height: 120px;
+                        padding: 10px 0px;
+                    }
+                </style>
+                <br><br>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><img src="images/TCHG_DungcuDinhvi.png"></td>
+                    <td><img src="images/TCHG_Quytactimbanmang_Go.png"></td>
+                    <td><img src="images/TCHG_DinhviPhongthuy.png"></td>
+                    <td><img src="images/HANGSO LUAN HOI.jpg"></td>
+                    <td><img src="images/TCHG_Tochuclaodongnhom.png"></td>
+                </tr>
+                <tr>
+                    <td>Nhà tiên tri</td>
+                    <td>Quy tắc tìm bản mạng</td>
+                    <td>Định vị phong thủy</td>
+                    <td>Sách HSLH & TCHG</td>
+                    <td>Tổ chức nhóm</td>
+                </tr>
+            </table>
+            <div>
+                <style>
+                    * {
+                        box-sizing: border-box;
+                    }
+
+                    body {
+                        font-family: sans-serif;
+                    }
+
+                    .scene {
+                        width: 200px;
+                        height: 200px;
+                        border: 1px solid #CCC;
+                        margin: 80px;
+                        perspective: 400px;
+                    }
+
+                    .cube {
+                        width: 200px;
+                        height: 200px;
+                        position: relative;
+                        transform-style: preserve-3d;
+                        transform: translateZ(-100px);
+                        transition: transform 2s;
+                    }
+
+                    .cube.show-ThạchS {
+                        transform: translateZ(-100px) rotateY(0deg);
+                    }
+
+                    .cube.show-ThúyM {
+                        transform: translateZ(-100px) rotateY(-90deg);
+                    }
+
+                    .cube.show-AnhV {
+                        transform: translateZ(-100px) rotateY(-180deg);
+                    }
+
+                    .cube.show-KhánhS {
+                        transform: translateZ(-100px) rotateY(90deg);
+                    }
+
+                    .cube.show-QuangV {
+                        transform: translateZ(-100px) rotateX(-90deg);
+                    }
+
+                    .cube.show-BìnhS {
+                        transform: translateZ(-100px) rotateX(90deg);
+                    }
+
+                    .cube__face {
+                        position: absolute;
+                        width: 200px;
+                        height: 200px;
+                        border: 2px solid black;
+                        line-height: 200px;
+                        font-size: 40px;
+                        font-weight: bold;
+                        color: white;
+                        text-align: center;
+                    }
+
+                    .cube__face--ThạchS {
+                        background: yellow;
+                    }
+
+                    .cube__face--ThúyM {
+                        background: yellow;
+                    }
+
+                    .cube__face--AnhV {
+                        background: yellow;
+                    }
+
+                    .cube__face--KhánhS {
+                        background: green;
+                    }
+
+                    .cube__face--QuangV {
+                        background: red;
+                    }
+
+                    .cube__face--BìnhS {
+                        background: darkolivegreen;
+                    }
+
+                    .cube__face--ThạchS {
+                        transform: rotateY(0deg) translateZ(100px);
+                    }
+
+                    .cube__face--ThúyM {
+                        transform: rotateY(90deg) translateZ(100px);
+                    }
+
+                    .cube__face--AnhV {
+                        transform: rotateY(180deg) translateZ(100px);
+                    }
+
+                    .cube__face--KhánhS {
+                        transform: rotateY(-90deg) translateZ(100px);
+                    }
+
+                    .cube__face--QuangV {
+                        transform: rotateX(90deg) translateZ(100px);
+                    }
+
+                    .cube__face--BìnhS {
+                        transform: rotateX(-90deg) translateZ(100px);
+                    }
+
+                    label {
+                        margin-right: 10px;
+                    }
+                </style>
+                <div class="scene">
+                    <div class="cube">
+                        <div class="cube__face cube__face--ThạchS">ThạchS</div>
+                        <div class="cube__face cube__face--ThúyM">ThúyM</div>
+                        <div class="cube__face cube__face--AnhV">AnhV</div>
+                        <div class="cube__face cube__face--KhánhS">KhánhS</div>
+                        <div class="cube__face cube__face--QuangV">QuangV</div>
+                        <div class="cube__face cube__face--BìnhS">BìnhS</div>
+                    </div>
+                </div>
+                <p class="radio-group">
+                    <label>
+                        <input type="radio" name="rotate-cube-side" value="ThạchS" checked />Thạch-1960
+                    </label>
+                    <label>
+                        <input type="radio" name="rotate-cube-side" value="ThúyM" />Thúy-1976
+                    </label>
+                    <label>
+                        <input type="radio" name="rotate-cube-side" value="AnhV" />Anh-1998
+                    </label>
+                    <label>
+                        <input type="radio" name="rotate-cube-side" value="KhánhS" />Khánh-2003
+                    </label>
+                    <label>
+                        <input type="radio" name="rotate-cube-side" value="QuangV" /> Quang-2004
+                    </label>
+                    <label>
+                        <input type="radio" name="rotate-cube-side" value="BìnhS" /> Bình-2008
+                    </label>
+                </p>
+
+                <script>
+                    var cube = document.querySelector('.cube');
+                    var radioGroup = document.querySelector('.radio-group');
+                    var currentClass = '';
+
+                    function changeSide() {
+                        var checkedRadio = radioGroup.querySelector(':checked');
+                        var showClass = 'show-' + checkedRadio.value;
+                        if (currentClass) {
+                            cube.classList.remove(currentClass);
+                        }
+                        cube.classList.add(showClass);
+                        currentClass = showClass;
+                    }
+                    // set initial side
+                    changeSide();
+
+                    radioGroup.addEventListener('change', changeSide);
+                </script>
+            </div>
+
+        </div>
+
+        <div id="right" style="color: red; text-align: right; ">
+            <form action=" method=" get" id="formHD" name="formHD">
+
+                <label for="">TÊN SẢN PHẨM</label>
+                <br>
+                <br>
+                <select id="cbSP" name="cbSP">
+                    <option value="10000000">Nhà Tiên tri</option>
+                    <option value="50000000">Bàn tay bản mạng</option>
+                    <option value="2000000">Định vị phong thủy</option>
+                    <option value="500000">Sách HSLH & TCHG</option>
+                    <option value="100000">Tổ chức LĐ nhóm</option>
+                </select>
+                <br>
+                <br>
+                <label for="">Đơn giá:</label>
+                <input type="text" name="txtDG" id="txtDG" readonly>
+                <br>
+                <br>
+                <label for="">Số lượng:</label>
+                <input type="number" name="txtSL" id="txtSL" value="2" min="1" max="200" required>
+                <br>
+                <br>
+                <label for="">Thành tiền:</label>
+                <input type="text" name="txtTT" id="txtTT2" readonly>
+                <br>
+                <br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+
+            <script>
+                function tinhTien() {
+                    var dg = document.getElementById("txtDG").value;
+                    var sl = document.getElementById("txtSL").value;
+                    dg = parseInt(dg);
+                    sl = parseInt(sl);
+
+
+                    var tt = dg * sl;
+
+                    // alert(tt);
+
+                    document.getElementById("txtTT2").value = tt;
+                }
+
+                document.getElementById("formHD").onchange = layDonGia;
+                window.onload = layDonGia;
+
+                function layDonGia() {
+                    var dg = document.getElementById("cbSP").value;
+                    document.getElementById("txtDG").value = dg;
+                    tinhTien();
+                }
+            </script>
+        </div>
+    </div>
+    <footer>
+        Copyright by TS. Nguyen Ngoc Thach; Nov-2019; HCMC; Viet Nam.
+    </footer>
+</body>
+
+</html>
