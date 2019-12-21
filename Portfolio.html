@@ -2,16 +2,24 @@
 <html lang="en">
 <head>
   <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Home Bootstrap Theme Simply Me</title>
+  <title>Portfolio of JADON</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/CreateModalImage.css">
+  <link rel="stylesheet" href="css/CreateSlideShow.css">  
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  
+  
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   <script src="https://kit.fontawesome.com/11144dca42.js" crossorigin="anonymous"></script>
 
+  <script src="js/CreatePopupSlideshow-02.js"></script>
   <style>
   body {
     font: 20px Montserrat, sans-serif;
@@ -80,7 +88,12 @@
     top: 30%;
     transform: translatex(-50%);
   }
-/* This style is from Bootstrap-Example-Marketing.html*/
+
+/* This is for the First Container */
+  /* This style is from Bootstrap-Example-Marketing.html*/
+/*.carousel{
+  z-index: 1000;
+}*/
 .carousel-inner img {
       width: 100%; /* Set width to 100% */
       margin: auto;
@@ -93,7 +106,7 @@
       display: none; 
     }
   }
-/* This style is from Bootstrap-Example-Marketing.html*/
+/* This is for the First Container */
 
 
   </style>
@@ -162,7 +175,7 @@
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-      <div class="item active">
+      <div id="wrapperForslides" class="item active">
         <img src="images/imageCollection/Unsplash/alasdair-elmes-1pQJPnRkRwk-unsplash.jpg" alt="Image">
         <div class="carousel-caption" style="top: 20%;">
             <a href=""><h1 style="font-size: 100px; color: white;">PORTFOLIO</h1></a>
@@ -176,13 +189,15 @@
         </div>      
       </div>
     </div>
+</div>
 
-<!-- Second Container -->
-    <div style="margin: auto; width: 65%;text-align: center; color: rgb(160, 160, 159);">
+<!-- Second Container (opening statement) -->
+<div>    
+  <div style="margin: auto; width: 65%;text-align: center; color: rgb(160, 160, 159);">
         <div style="margin: 8%; text-align: center;">
             <h1>EVENT PLANNING & DESIGN AT IT'S FINEST</h1>
         </div>
-        <div >
+        <div>
             <p>Perfect Event is an award winning event planning and design firm. Our full service, start to finish details and services make our studio the perfect start for all things party style. ​Through innovative design and flawless execution, we produce memorable and unique events of all shapes, sizes and styles. For 20 years our talented, experienced team has mastered countless celebrations - weddings, corporate, galas, birthdays, dinners and more. Named World's Top 10 Event Planner by Departures Magazine, top wedding planner by Martha Stewart and The Knot, top event planner by Global Black Book, and top event innovator by BizBash, we share our insight and passion with clients both large and small.</p>
         </div>
         <div style="text-align: center; font-size: 0.5em; color: rgb(red, green, blue);">
@@ -190,66 +205,87 @@
         </div>
     </div>
 </div>
-<!-- Third Container (Grid) -->
 
+<!-- Third Container (3 col with text under and centered) -->
 <div class="container-fluid text-center bg-grey" style="padding-bottom: 0;">
-    <div style="margin: auto; width: 90%; border-top: 1px solid #c9a16e;">
-        <div style="color: #000;text-align: center;">
-            <h3 style="padding-top: 20px; font-size: 25px; font-weight: 100; line-height: 1.5;">WEDDING</h3>
-            <p style="font-size: 12px; font-weight: 100; line-height: 0.5;">The reality is better than your dream</p>
-        </div>
-        <div class="row text-center" style="padding-top: 20px; ">
-            <div class="col-sm-4" style="padding: 10px;">
-                <div class="thumbnail" style="border: none;color: #000; text-align: justify;">
-                <img src="images/imageCollection/Unsplash/md-duran-8g1jtaGk8LY-unsplash.jpg" alt="Paris">
-                <p style="margin-top: 10px;"><strong>Paris</strong></p>
-                <p style="font-size: 12px;">Yes, we built Paris</p>
-                </div>
-            </div>
-            <div class="col-sm-4" style="padding: 10px;">
-                <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
-                <img src="images/imageCollection/Unsplash/md-duran-rE9vgD_TXgM-unsplash.jpg" alt="New York">
-                <p style="margin-top: 10px;"><strong>New York</strong></p>
-                <p style="font-size: 12px;">We built New York</p style="font-size: 12px;">
-                </div>
-            </div>
-            <div class="col-sm-4" style="padding: 10px;">
-                <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
-                <img src="images/imageCollection/Unsplash/mikael-kristenson-3aVlWP-7bg8-unsplash.jpg" alt="San Francisco">
-                <p style="margin-top: 10px;"><strong>San Francisco</strong></p>
-                <p style="font-size: 12px;">Yes, San Fran is ours</p style="font-size: 12px;">
-                </div>
-            </div>
-        </div>        
+  
+  <!-- CORPORATE portfolio -->  
+  <div style="margin: auto; width: 90%; border-top: 1px solid #c9a16e;">
+    <div style="color: #000;text-align: center;">
+      <h3 style="padding-top: 20px; font-size: 25px; font-weight: 100; line-height: 1.5;">CORPORATE EVENTS</h3>
+      <p style="font-size: 12px; font-weight: 100; line-height: 0.5;">We present your business to the world</p>
     </div>
+        
+    <div class="row text-center Div-col-img" style="padding-top: 20px; ">
+      <!-- Corporate-01 -->      
+      <div class="col-sm-4" style="padding: 10px;">
+        
+          <div id="Pop-Corp01" class="thumbnail" style="border: none; color: #000; text-align: justify;">
+            <img src="images/Final/Corporate-01/fred-kloet-NVTbyTPsgAk-unsplash.jpg">
+
+            <p style="margin-top: 10px;"><strong>Fund Manager - road show for an IPO</strong></p>
+            <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, ex. Temporibus pariatur nostrum voluptas doloremque tenetur deserunt culpa rem ab consequuntur, molestias eligendi debitis modi non deleniti vero minus a.</p>   
+          </div>
+        
+      </div>
+            
+      <!-- Corporate-02 -->      
+      <div class="col-sm-4" style="padding: 10px;">
+        <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
+          <img src="images/Final/Corporate-02/fred-kloet-Cv7Y0v51zEo-unsplash.jpg">
+
+          <p style="margin-top: 10px;"><strong>Real Estate Company Reception</strong></p>
+          <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus sunt, sequi magnam veniam ut expedita delectus itaque autem numquam, repellendus ab fuga. Facilis praesentium minus ipsum debitis aliquam atque consequuntur!</p> 
+        </div>
+      </div>
+
+      <!-- Corporate-03 -->
+      <div class="col-sm-4" style="padding: 10px;">
+        <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
+          <img src="images/Final/Corporate-03/evangeline-shaw-ZG1WIcFHAkQ-unsplash.jpg">
+
+          <p style="margin-top: 10px;"><strong>Yes, we bring the World Economic Forum here</strong></p>
+          <p style="font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur molestias eligendi debitis modi non deleniti vero minus a.</p> 
+        </div>
+      </div>
+    </div>        
+  </div>
 </div>
 
-<!-- Fourth Container (Grid) -->
+<!-- Fourth Container (6 col with text under and centered) -->
 <div class="container-fluid text-center bg-grey" style="padding-top: 0;">
-    <div style="margin: auto; width: 90%; border-top: 1px solid #c9a16e;border-bottom: 1px solid #c9a16e;">
-        <div style="color: #000;text-align: center; padding-left: 10px;">
-            <h3 style="padding-top: 20px; font-size: 25px; font-weight: 100; line-height: 1.5;">SCHOOL EVENTS</h3>
-            <p style="font-size: 12px; font-weight: 100; line-height: 0.5;">The reality is better than your dream</p>
+  <div style="margin: auto; width: 90%; border-top: 1px solid #c9a16e;border-bottom: 1px solid #c9a16e;">
+    <div style="color: #000;text-align: center; padding-left: 10px;">
+      <h3 style="padding-top: 20px; font-size: 25px; font-weight: 100; line-height: 1.5;">SCHOOL EVENTS</h3>
+      <p style="font-size: 12px; font-weight: 100; line-height: 0.5;">Give future the attention it desrves</p>
+    </div>
+    
+    <div class="row text-center Div-col-img" style="padding-top: 20px; ">
+
+      <!-- School-01 -->      
+      <div class="col-sm-2" style="padding: 5px; padding-left: 10px;">
+        <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
+          <img src="images/Final/School-01/poodar-chu-TTYFzgLidGM-unsplash.jpg" alt="New York">
+
+          <p style="margin-top: 10px;font-size: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur molestias eligendi debitis modi non deleniti vero minus a.</p> 
+        </div>        
+      </div>
+      <!-- School-02 -->
+      <div class="col-sm-2" style="padding: 5px;">
+        <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
+          <img src="images/imageCollection/Unsplash/md-duran-rE9vgD_TXgM-unsplash.jpg" alt="New York">
+
+          <p style="margin-top: 10px; font-size: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum magnam sit dolorem minima velit minus molestias.</p">
         </div>
-        <div class="row text-center" style="padding-top: 20px; ">
-            <div class="col-sm-2" style="padding: 5px; padding-left: 10px;">
-                <div class="thumbnail" style="border: none;color: #000; text-align: justify;">
-                <img src="images/imageCollection/Unsplash/md-duran-8g1jtaGk8LY-unsplash.jpg" alt="Paris">
-                <p style="margin-top: 10px; font-size: 10px;">Yes, we built Paris</p>
-                </div>
-            </div>
-            <div class="col-sm-2" style="padding: 5px;">
-                <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
-                <img src="images/imageCollection/Unsplash/md-duran-rE9vgD_TXgM-unsplash.jpg" alt="New York">
-                <p style="margin-top: 10px; font-size: 10px;">We built New York</p">
-                </div>
-            </div>
-            <div class="col-sm-2" style="padding: 5px;">
-                <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
-                <img src="images/imageCollection/Unsplash/mikael-kristenson-3aVlWP-7bg8-unsplash.jpg" alt="San Francisco">
-                <p style="margin-top: 10px; font-size: 10px;">Yes, San Fran is ours</p">
-                </div>
-            </div>
+      </div>
+      <!-- School-03 -->
+      <div class="col-sm-2" style="padding: 5px;">
+        <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
+          <img src="images/imageCollection/Unsplash/mikael-kristenson-3aVlWP-7bg8-unsplash.jpg" alt="San Francisco">
+          
+          <p style="margin-top: 10px; font-size: 10px;">Yes, San Fran is ours</p">
+        </div>
+      </div>
 
                 <div class="col-sm-2" style="padding: 5px;">
                     <div class="thumbnail" style="border: none;color: #000; text-align: justify;">
@@ -273,7 +309,7 @@
     </div>
 </div>
 
-<!-- Third Container (Grid) -->
+<!-- Fifth Container (3 col w/ SQR image) -->
 
 <div class="container-fluid text-center bg-grey" style="padding-bottom: 0;">
   <div style="margin: auto; width: 90%; border-top: 1px solid #c9a16e;">
@@ -320,6 +356,35 @@
         </div>
       </div>        
   </div>
+</div>
+
+<!-- Popup Corp -->
+<div onclick="popCorp01()"><p class="popBtn" style="border: none; color: #000; text-align: justify;">Click Me</p></div>
+
+<!-- The popModal HTML-->
+<div id="myPopModal" class="popModal">
+    <div class="popSlideshow-container">
+        <span id="closePopup" class="popClose">&times;</span>
+        <div class="popMySlides popFade">
+            <div class="popNumbertext">1 / 3</div>
+                <img id="img01" style="width:100%" class="popModal-content">
+            <div class="popText">Caption Text</div>
+        </div>
+
+        <a class="popPrev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="popNext" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="popDot" onclick="currentSlide(1)"></span> 
+        <span class="popDot" onclick="currentSlide(2)"></span> 
+        <span class="popDot" onclick="currentSlide(3)"></span>
+        <span class="popDot" onclick="currentSlide(4)"></span>
+        <span class="popDot" onclick="currentSlide(5)"></span> 
+        <span class="popDot" onclick="currentSlide(6)"></span> 
+        <span class="popDot" onclick="currentSlide(7)"></span>
+        <span class="popDot" onclick="currentSlide(8)"></span>
+    </div>
 </div>
 
 <!-- Footer -->
