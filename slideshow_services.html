@@ -89,6 +89,7 @@ img{
   border-radius: 50%;
   cursor: pointer;
   transition: 0.2s;
+  margin:10px 0 0 0;
 }
 
 img:hover {opacity: 0.9;}
@@ -174,17 +175,75 @@ img:hover {opacity: 0.9;}
             width: 100%;
           }
         }
+/*navbar header*/
+body {
+  font-family: "Lato", sans-serif;
+}
 
+.sidenav {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #1abc9c !important;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
 
   </style>
 </head>
-<body>
+<!--navbar header-->
+<div id="mySidenav" class="sidenav text-left">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Home</a>
+  <a href="services.html">Services</a>
+  <a href="#">Portfolio</a>
+  <a href="#">Gallery</a>
+  <a href="Team.html">Team</a>
+  <a href="#">Press</a>
+  <a href="contact.html">Contact</a>
+</div>
+<body  id="main">
 
 <!-- Navbar -->
 <nav class="container-fluid navbar navbar-default">
   <div class="container-fluid" style="border-bottom: gray double thin;border-top: gray double thin; height: 100px;">
-    <a class="navbar-brand navbar-center" href="#" style="max-height: 100%;"><img src="images/JADON-logo/Modification/logo_transparent-HTT_clipped.png" alt="" style="max-height: 280%;"></a> 
+    <a class="navbar-brand navbar-center" href="#" style="max-height: 100%;"><i><img src="images/JADON-logo/Modification/logo_transparent-HTT_clipped.png" alt="" style="max-height: 280%;"></i></a> 
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -195,7 +254,7 @@ img:hover {opacity: 0.9;}
 
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-midRight" style="height: 100%;">
-        <li><a href="#"><i class="fas fa-bars fa-lg"></i></a></li>
+        <li><a href="#"> <span style="font-size:30px;cursor:pointer" onclick="openNav()"><i class="fas fa-bars fa-lg"></i></span></a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right navbar-midLeft">
@@ -298,8 +357,16 @@ img:hover {opacity: 0.9;}
 </section>
 
 <script>
+// navbar header
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
 
-
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
     // Get the modal
     var modal = document.getElementById("myModal");
     
