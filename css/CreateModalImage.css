@@ -6,14 +6,14 @@
             transition: 0.3s;
         }
 
-        #popBtn:hover {opacity: 0.3;}
+        #popBtn:hover {opacity: 0.7;}
 
         /* The popModal (background) */
         .popModal {
             display: none; /* Hidden by default */
             position: fixed; /* Stay in place */
             z-index: 1; /* Sit on top */
-            padding-top: 100px; /* Location of the box */
+            padding-top: 10px; /* Location of the box */
             left: 0;
             top: 0;
             width: 100%; /* Full width */
@@ -28,11 +28,12 @@
             margin: auto;
             display: block;
             width: 100%;
-            max-width: 1200px;
+            max-width: 700px;
         }
 
         /* Caption of popModal Image */
-        #caption {
+        #caption01 {
+            font-size: 10px;
             margin: auto;
             display: block;
             width: 80%;
@@ -40,11 +41,11 @@
             text-align: center;
             color: #ccc;
             padding: 10px 0;
-            height: 150px;
+            height: 50px;
         }
 
         /* Add Animation */
-        .popModal-content, #caption {  
+        .popModal-content, #caption01 {  
             -webkit-animation-name: zoom;
             -webkit-animation-duration: 0.6s;
             animation-name: zoom;
