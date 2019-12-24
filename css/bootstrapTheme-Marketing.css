@@ -1,0 +1,18 @@
+/* This is for the First Container */
+    /* This style is from Bootstrap-Example-Marketing.html*/
+    /*.carousel{
+    z-index: 1000;
+    }*/
+    .carousel-inner img {
+        width: 100%; /* Set width to 100% */
+        margin: auto;
+        min-height:200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+        .carousel-caption {
+        display: none; 
+        }
+    }
+/* This is for the First Container */
