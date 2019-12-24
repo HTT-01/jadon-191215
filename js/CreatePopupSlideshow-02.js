@@ -39,6 +39,26 @@
             "Text for corp03-5",
             "Text for corp03-6",
         ];
+        // Images Data for Corporation-04
+        var hinh_corp04=[
+            "images/Final/Corporate-04/hello-i-m-nik-73_kRzs9sqo-unsplash.jpg",
+            "images/Final/Corporate-04/shridhar-gupta-dZxQn4VEv2M-unsplash.jpg",
+            "images/Final/Corporate-04/annie-spratt--SG84EOcaJE-unsplash.jpg",
+        ];
+        var chu_corp04=[
+            "Text for corp04-1",
+            "Text for corp04-2",
+            "Text for corp04-3",
+        ];
+        // Images Data for Corporation-05
+        var hinh_corp05=[
+            "images/Final/Corporate-05/jakob-dalbjorn-cuKJre3nyYc-unsplash.jpg",
+            "images/Final/Corporate-05/the-climate-reality-project-Hb6uWq0i4MI-unsplash.jpg",
+        ];
+        var chu_corp05=[
+            "Text for corp05-1",
+            "Text for corp05-2",
+        ];
         // Images Data for Corporation-06
         var hinh_corp06=[
             "images/Final/Corporate-06/1.jpg",
@@ -345,6 +365,12 @@ function showSlides(n) {
             case "corp03":
                 soluong=hinh_corp03.length;
                 break;
+            case "corp04":
+                soluong=hinh_corp04.length;
+                break;
+            case "corp05":
+                soluong=hinh_corp05.length;
+                break;
             case "corp06":
                 soluong=hinh_corp06.length;
                 break;
@@ -420,6 +446,14 @@ function showSlides(n) {
         case "corp03":
             captionText.innerHTML=chu_corp03[slideIndex-1]; 
             modalImg.src=hinh_corp03[slideIndex-1];
+            break;
+        case "corp04":
+            captionText.innerHTML=chu_corp04[slideIndex-1]; 
+            modalImg.src=hinh_corp04[slideIndex-1];
+            break;
+        case "corp05":
+            captionText.innerHTML=chu_corp05[slideIndex-1]; 
+            modalImg.src=hinh_corp05[slideIndex-1];
             break;
         case "corp06":
             captionText.innerHTML=chu_corp06[slideIndex-1]; 
