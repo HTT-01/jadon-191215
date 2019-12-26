@@ -9,9 +9,9 @@
             "images/Final/Corporate-01/fred-kloet-Qh-4LBPcxIo-unsplash.jpg",
         ];
         var chu_corp01=[
-            "Text for corp01-1",
-            "Text for corp01-2",
-            "Text for corp01-3",
+            "This is the second day main reception at the main lobby of the Hilton. 12 investment groups and funds have come and exchanged information with Jadon's client",
+            "The guests first meet and greet with 3 City Gardan's financial teams in the lobby, where they will be served with drink and food at the bar. Then the team will present the projects in Hilton's conference rooms",
+            "Jadon on behalf o City Garden did all the works from receiving guests in the airport, transportation, house the guests, organinze events in Hilton, see them to the airport. ",
         ];
         // Images Data for Corporation-02
         var hinh_corp02=[
@@ -32,12 +32,12 @@
             "images/Final/Corporate-03/evangeline-shaw-ZG1WIcFHAkQ-unsplash.jpg",
         ];
         var chu_corp03=[
-            "Text for corp03-1",
-            "Text for corp03-2",
-            "Text for corp03-3",
-            "Text for corp03-4",
-            "Text for corp03-5",
-            "Text for corp03-6",
+            "Working with our partner company in Davos-Klosters, Switzerland, Jadon Event Management is proud to be the designer, builder and operator of all exhibition, display and forum facilities of the World Economic Forum 2019",
+            "Jadon's task here is also to cordinate the travel and accomodation for the guests of the Forum coming from South East Asian area.",
+            "3 months before the official event, Jadon have started the training local staff in Davos. At that time all the facilities have been built and tested.",
+            "During the event multiple conferences and meetings are happening at the same time each of which are under supervision of Jadon's team through the local staffs.",
+            "At the end of 2019, Jadon is working with WEF for 2020 anual meeting through our Swiss partners. Since the success of 2019 event, we have expanded or customer list with at least ten more non-governmental organization (NGO)",
+            "Jadon is gradually adopting sustainable approach in doing our business and supporting WEF guidelines towards the environmental friendly operation",
         ];
         // Images Data for Corporation-04
         var hinh_corp04=[
@@ -71,14 +71,14 @@
             "images/Final/Corporate-06/27747931_1443175945808081_3145434768271298442_o.jpg",
         ];
         var chu_corp06=[
-            "Text for corp06-1",
-            "Text for corp06-2",
-            "Text for corp06-3",
-            "Text for corp06-4",
-            "Text for corp06-5",
-            "Text for corp06-6",
-            "Text for corp06-7",
-            "Text for corp06-8",
+            "The event was held in Adora Convention Center in district Phu Nhuan on the last night of 2017. Here is an opening performance of the TTC group employees.",
+            "2 employees won the lottery, the newest model of the curve-flat screen TV. Jadon role is the turn-key serice including set-up the evening party for 800 guests, cordinate travels and accomodation for staffs from more than 10 subsidiaries and affiliate companies from different provinces.",
+            "Mr. Thanh, the president of TTC group and the Board members raise glasses to start the event.",
+            "The Lion dance to bring luck to the company. This is included in Jadon's package along with hundreds of other little detail preparation.",
+            "Mr. Thank, president of TTC group is signing with a senior staff.",
+            "Singing performance by an subsidiary company with professional dancer coordinated by JADON",
+            "Consolation lottery prices for other 10 emplyees.",
+            "A speech of the Director of the most profitable subsidiary company of the year",
         ];
 
     // Images Data for School ===============================================

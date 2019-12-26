@@ -91,14 +91,25 @@
 <!-- Eighth Container (Gallery layout) -->
 <div class="container-fluid text-center bg-grey" style="padding-bottom: 0; padding-top: 0;">
   <div style="margin: auto; width: 65%;text-align: center; color: rgb(160, 160, 159);">
-        <div style="margin: 8%; text-align: center;">
-            <h1>OUR GALLERY</h1>
-        </div>
+    <div style="margin: 8%; text-align: center;">
+        <h1 style="font-size: 100px;">GALLERY</h1>
+    </div>
+    <div style="height: 50px;"> 
+      <ul class="nav navbar-nav navbar-center" style="font-size: 0.8em; margin: 0; padding: 0; text-align: center;">
+        <li style="font-size: 15px; padding-left: 0px; padding-right: 0px;"><a href="#locSchl">SCHOOL EVENTS</a></li>
+        <li style="font-size: 30px; padding-left: 0px; padding-right: 0px;"><a href="#locWedd">WEDDING</a></li>
+        <li style="font-size: 20px; padding-left: 0px; padding-right: 0px;"><a href="#locCorp">CORPORATE</a></li>
+        <li style="font-size: 25px; padding-left: 0px; padding-right: 0px;"><a href="#locPriv">PRIVATE</a></li>
+        <li style="font-size: 10px; padding-left: 0px; padding-right: 0px;"><a href="#locConv">EXHIBITION & CONVENTION</a></li>  
+      </ul>
+    </div>        
   </div>  
+
+
   <div style="margin: auto; width: 90%; border-top: 1px solid #c9a16e;">
       <div class="" style="padding-top: 20px; ">
         
-        <div class="col-sm-6" style="padding: 5px; padding-right: 0;">
+        <div class="col-sm-6" style="padding: 5px; padding-right: 0;" id="locSchl">
 
               <div style="border: none; width: 40%; float:left;">
                 
@@ -149,7 +160,7 @@
                   <img src="images/Final/School-06/SQR-product-school--GajrOEN6m4-unsplash.jpg" alt="New York">
                 </div>
 
-                <div class="col-sm-6" style=" color: #000; text-align: justify; padding: 5px; padding-left: 0; height: 100px;">
+                <div id="locPriv" class="col-sm-6" style=" color: #000; text-align: justify; padding: 5px; padding-left: 0; height: 100px;">
                   <h1>PRIVATE EVENTS</h1>
                 </div>
 
@@ -159,8 +170,9 @@
                 </div>
 
                 <!-- Private-03 -->                    
-                <div class="thumbnail" style="border: none; color: #000; text-align: justify; padding-bottom: 0px; padding-top: 0px;" onclick="createPopup('priv02')" id="popBtn">
+                <div class="thumbnail" style="border: none; color: #000; text-align: justify; padding-bottom: 0px; padding-top: 0px;" onclick="createPopup('priv03')" id="popBtn">
                   <img src="images/Final/Private-03/matty-adame-KpZuW7VmPoA-unsplash.jpg" alt="New York">
+                  <span id="locCorp"></span>
                 </div>
 
                 <!-- Corporate-05 -->                    
@@ -180,7 +192,7 @@
               <div style="border: none; width: 100%; float:right; margin-bottom: 0; padding-top: 0px;padding-right: 5px;">
                 
               </div>
-              <div style="border: none; width: 40%; float:left;">
+              <div style="border: none; width: 40%; float:left;" id="locWedd">
                 <h1 style="color: #000; text-align:right; float: right;margin-top: 0; padding-top: 0; padding-bottom: 145px;">WEDDING</h1>
                 <!-- Wedding-01 -->                    
                 <div class="thumbnail" style="border: none; color: #000; text-align: justify; padding-bottom: 0px; padding-top: 0px; margin-bottom: 0;" onclick="createPopup('wedd01')" id="popBtn">
@@ -225,7 +237,7 @@
 
 
         <div class="col-sm-6" style="padding: 5px; padding-left: 0;padding-top: 20px;">
-          <div style="border: none; width: 100%; float:left;">
+          <div style="border: none; width: 100%; float:left;" id="locConv">
             
             <!-- Convention-01 -->      
             <div class="thumbnail" style="border: none; color: #000; text-align: justify;" onclick="createPopup('conV01')" id="popBtn">
@@ -349,7 +361,7 @@
     <a href="Portfolio.html" style="padding: 2%;">PORTFOLIO</a>
     <a href="Gallery.html" style="padding: 2%;">GALLERY</a>
     <a href="Team.html" style="padding: 2%;">TEAM</a>
-    <a href="#" style="padding: 2%;">PRESS</a>
+    <a href="Press.html" style="padding: 2%;">PRESS</a>
     <a href="contact.html" style="padding: 2%;">CONTACT</a>
   </div>
 </footer>
