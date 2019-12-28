@@ -246,23 +246,19 @@
         // Images Data for Wedding-02
         var hinh_wedd02=[
             "images/Final/Wedding-02/k_Zing.jpg",
-            "images/Final/Wedding-02/l_Zing.jpg",
             "images/Final/Wedding-02/q_Zing.jpg",
             "images/Final/Wedding-02/a_Zing.jpg",
             "images/Final/Wedding-02/9_Zing.jpg",
             "images/Final/Wedding-02/ff_Zing.jpg",
             "images/Final/Wedding-02/37539303_10216664352901184_7065671967327649792_o.jpg",
-            "images/Final/Wedding-02/g_Zing.jpg",
         ];
         var chu_wedd02=[
             "Miss Tu Anh got her title when she was a freshman at Academy of Journalism and Communication",
-            "Text for wedd02-2",
-            "Text for wedd02-3",
-            "Text for wedd02-4",
-            "Text for wedd02-5",
-            "Text for wedd02-6",
-            "Text for wedd02-7",
-            "Text for wedd02-8",
+            "Jadon has aspecific requirement from Ms Tu Anh to have 2 lighting themes:'winter' and 'spring'",
+            "The event took place at the luxurious Conference center of Long Bien area Ha Noi.",
+            "Her husband is in construction industry and he has been working with Jadon on many project",
+            "as part of Jadon's family, Ms Tu Anh guest list includes many divas and celebrities",
+            "The celebrity list includes: Mai Phương Thúy, Ngọc Hân, Đỗ Mỹ Linh next to Thanh Tú, Hoàng Anh and MC Thái Dũng.",
         ];
         // Images Data for Wedding-03
         var hinh_wedd03=[
@@ -272,18 +268,14 @@
             "images/Final/Wedding-03/D2T_7057_Zing_8.jpg",
             "images/Final/Wedding-03/D2T_7131_Zing.jpg",
             "images/Final/Wedding-03/D2T_7017_Zing_41.jpg",
-            "images/Final/Wedding-03/D2T_7017_Zing_48.jpg",
-            "images/Final/Wedding-03/D2T_7017_Zing_47.jpg",
         ];
         var chu_wedd03=[
-            "Text for wedd03-1",
-            "Text for wedd03-2",
-            "Text for wedd03-3",
-            "Text for wedd03-4",
-            "Text for wedd03-5",
-            "Text for wedd03-6",
-            "Text for wedd03-7",
-            "Text for wedd03-8",
+            "The wedding took place in a luxurious conference hall in HCM city.",
+            "Jadon has hired the trendy designer Đỗ Mạnh Cường as decorator for the wedding",
+            "Tuyet Lan is the runner-up of Vietnam Next Top Model 2010",
+            "Le Thuy, another Top Model, is helping her in the event",
+            "Designer Đỗ Mạnh Cường and Thủy Nguyễn, two long time contributor of Jadon, is congratulating Tuyết Lan.",
+            "she got married at the top of her career, after a year she still shine even more brightly",
         ];
 
         // Images Data for Other Things ===============================================
@@ -295,19 +287,13 @@
             "images/Final/Convention-01/stem-list-_GgQgHr8aek-unsplash.jpg",
             "images/Final/Convention-01/stem-list-7tS9FnZwwFc-unsplash.jpg",
             "images/Final/Convention-01/stem-list-bq4ytZ8hTAQ-unsplash.jpg",
-            "images/Final/Convention-01/stem-list-E01xSjvm4eQ-unsplash.jpg",
-            "images/Final/Convention-01/stem-list-oRGJARl1VsA-unsplash.jpg",
-            "images/Final/Convention-01/stem-list-ryRU-cd1yas-unsplash.jpg",
         ];
         var chu_conV01=[
-            "Text for conV01-1",
-            "Text for conV01-2",
-            "Text for conV01-3",
-            "Text for conV01-4",
-            "Text for conV01-5",
-            "Text for conV01-6",
-            "Text for conV01-7",
-            "Text for conV01-8",
+            "Youmacon is an annual four-day anime convention held during November at the Detroit Marriott at the Renaissance Center and TCF Center in Detroit, Michigan.",
+            "Youmacon is a popular culture event similar to most “Comic Cons”",
+            "Common themes throughout the event are Anime (Japanese animation), Video Games, Japanese style artwork and comics, and the rising internet culture influenced by all of the above.",
+            "Working with Youmacon convention since 2017, Jadon has finally have an agreement to co-host this event.",
+            "Youmacon brings a unique all-ages mix of interactive events, celebrity guest panels, and live musical performances to Downtown Detroit.",
         ];
         // Images Data for Exhibition-01
         var hinh_exhB01=[
@@ -317,10 +303,10 @@
             "images/Final/Exhibition-01/cay-dai-thu-dieu-khac-viet-ta-quang-bao-to-chuc-trien-lam-Hinh-9.jpg",
         ];
         var chu_exhB01=[
-            "Text for exhB01-1",
-            "Text for exhB01-2",
-            "Text for exhB01-3",
-            "Text for exhB01-4",
+            "Mr. Ta Quang Bao was recently honoured at the 2016 Ho Chi Minh Awards for Literature and the Arts for his endless contributions to the country’s development of the arts.",
+            "press conference was held in Ha Noi by Jadon to introduce Mr. Ta Quang Bao's collection. ",
+            "Jadon has done the work free of charge as Mr. Bao has done so much for Jadon as contributor since Jadon was founded",
+            "His two artworks which helped him earn the 2016 Ho Chi Minh Awards are ‘Que Son Statue’ and ‘Lo River Victory Statue’.",
         ];
 
 var folderID;
