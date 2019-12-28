@@ -1,7 +1,7 @@
 # 1910.M1-eProject-Group_2
 
 Batch no.: T1.1910.M1
-
+CENTER NAME: ACE-HCMC-2-FPT
 Project title: JADON - Event Management Service Website
 
 ========> Group 2 <=========
