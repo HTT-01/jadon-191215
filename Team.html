@@ -5,91 +5,27 @@
   <title>Team</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
   <script src="https://kit.fontawesome.com/11144dca42.js" crossorigin="anonymous"></script>
 
-  <style>
-  body {
-    font: 20px Montserrat, sans-serif;
-    line-height: 1.8;
-    background-color: #f5f6f7;
-  }
-  p {font-size: 16px;}
-  .margin {margin-bottom: 45px;}
-  .bg-1 { 
-    background-color: #1abc9c; /* Green */
-    color: #ffffff;
-  }
-  .bg-2 { 
-    background-color: #474e5d; /* Dark Blue */
-    color: #ffffff;
-  }
-  .bg-3 { 
-    background-color: #ffffff; /* White */
-    color: #555555;
-  }
-  .bg-4 { 
-    background-color: #2f2f2f; /* Black Gray */
-    color: #fff;
-  }
-  .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  .navbar {
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    margin-bottom: 0;
-    font-size: 12px;
-    letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-    color: #1abc9c !important;
-  }
-  
-  .navbar-brand.navbar-center {
-    position: absolute;
-    left: 50%;
-    top: 5%;
-    transform: translatex(-50%);
-    /*margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;*/
-  }
-  .navbar-brand{
-    margin: 0;
-    padding: 0;
-  }
-  .nav.navbar-nav.navbar-midRight{
-    position: absolute;
-    left: 15%;
-    top: 20%;
-    transform: translatex(-50%);
-  }
+  <link rel="stylesheet" href="css/bootstrapTheme-SimplyMe.css">
 
-  .nav.navbar-nav.navbar-midLeft{
-    position: absolute;
-    left: 85%;
-    top: 20%;
-    transform: translatex(-50%);
-  }
-  
-  
+  <style>
+
   </style>
 </head>
 <body>
 
 <!-- Navbar -->
-<nav class="container-fluid navbar navbar-default">
-  <div class="container-fluid" style="border-bottom: gray double thin;border-top: gray double thin; height: 10px;">
-    <a class="navbar-brand navbar-center" href="#" style="max-height: 100%;"><img src="images/JADON-logo/Modification/logo_transparent-HTT_clipped.png" alt="" style="max-height: 280%;"></a> 
+<nav class="navbar navbar-default">
+  <div class="container-fluid" style="border-bottom: gray double thin;border-top: gray double thin;">
+    <a class="navbar-brand navbar-center" href="index.html"><img src="images/JADON-logo/Modification/logo_transparent-HTT_clipped.png" alt="" style="max-height: 280%;"></a> 
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -100,9 +36,25 @@
 
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-midRight" style="height: 100%;">
-        <li><a href="#"><i class="fas fa-bars fa-lg"></i></a></li>
+        <li class="dropdown">
+          <a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fas fa-bars fa-lg"></i></a>
+          <ul class="dropdown-menu">
+            <li>
+              <a class="list-group-item dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-chevron-right
+              "></span>Portfolio</a>
+              <ul class="dropdown-menu">
+                <a href="" class="list-group-item"><li>Corporate</li></a>
+                <a href="" class="list-group-item"><li>School</li></a>
+                <a href="" class="list-group-item"><li>Wedding</li></a>
+              </ul>
+            </li>
+            <li><a href="">action 2</a></li>
+            <li><a href="">action 3</a></li>
+            <li class="divider"></li>
+            <li><a href="">seperated link</a></li>
+          </ul>
+        </li>
       </ul>
-
       <ul class="nav navbar-nav navbar-right navbar-midLeft">
         <li><a href="#"><i class="fas fa-comment fa-lg"></i></a></li>
         <li><a href="#"><i class="fas fa-envelope fa-lg"></i></a></li>
@@ -110,36 +62,93 @@
     </div>
   </div>
 
-  <div class="container" style="height: 50px;"> 
-    
-      <ul class="nav navbar-nav navbar-right" style="font-size: 0.8em; margin: 0; padding: 0;">
+  <div style="height: 50px;border-bottom: gray double thin;"> 
+      <ul class="nav navbar-nav navbar-right" style="font-size: 0.8em; margin: 0; padding-top: 0;">
         <li><a href="services.html">SERVICES</a></li>
-        <li><a href="#">PORTFOLIO</a></li>
-        <li><a href="#">GALLERY</a></li>
+        <li><a href="Portfolio.html">PORTFOLIO</a></li>
+        <li><a href="Gallery.html">GALLERY</a></li>
         <li><a href="Team.html">TEAM</a></li>
         <li><a href="Press.html">PRESS</a></li>
         <li><a href="contact.html">CONTACT</a></li>   
       </ul>
   </div>
-  <div class="container-fluid" style="border-top: gray double thin; height: 0;"></div>
 </nav>
+
 <!--phan body-->
-<section class="container-fluid" style="font-size:large;">
+<section class="container-fluid" style="font-size:large; margin-top: 0; padding-top: 0;">
 <div class="row">
 <table class="col-sm-12 -webkit-col-sm-12 text-center" style="background-image:url(images/Final/damien-tupinier-OFEvgVfr6iU-unsplash.jpg);height:750px;background-repeat: no-repeat;background-size:cover;">
-    <tr>
-        <td><h1 style="color:goldenrod; font-size:50px; font-weight: bolder;">.MY.<br>
-        ***Team***</h1></td>
-    </tr>
+
 </table>
+
+<div class="item">
+  <!-- 3 - Team -->
+  <div class="carousel-caption" style="top: 60%;">
+      <a href="Team.html"><h1 style="font-size: 100px; color: white;">TEAM</h1></a>
+  </div>      
+</div>
+
+<!-- Second Container - OPENING STATEMENT -->
+<div>    
+  <div style="margin: auto; width: 75%;text-align: center; color: rgb(160, 160, 159); padding-top: 800px;">
+        <div style="margin: 8%; text-align: center;">
+            <h2>JADON TEAM customizes events to your vision.</h2>
+        </div>
+        <div>
+          <p>JADON Event Planning designs events that express your style and please your visual senses, while making sure that your vision laminates through every step. We create one of a kind event experiences throughout The HCM City.  Each event is distinctive, fun and absolutely unforgettable. Our mission is to guide and support you through an exquisite experience, from the first consultation to day of the event.</p>  
+          <p>We are proficient with coordination and logistics and expert at on the spot problem solving. Commitment to generating exceptional ideas and solutions is our calling card. Thang’s diverse experience in sales, marketing and event planning has equipped he with unparalleled organizational skills and creativity that results in a smooth, innovative and stress free event experience.  Show Stopping Event Planning customizes events that are unique to our clients – from simple and professional to elegant and luxurious.  We specialize in weddings, corporate events and fundraising.  Celebrations and custom events are our passion.  Our only priority is to deliver an event that unquestionably exceeds your expectations.  Expect only the best because that is what you will get.  Take the next step and schedule a consultation today!</p>
+        </div>
+    </div>
+</div>
+
+<!-- Tenth Container (1 col SQR img text on the right) - Team-->
+<div class="container-fluid text-center bg-grey" style="padding-bottom: 0;">
+  <div style="margin: auto; width: 60%; border-top: 1px solid #c9a16e; border-bottom: 1px solid #c9a16e; height: 900px;" >
+
+      <div class="" style="padding-top: 20px;">
+        <!-- Thang Hoang -->
+        <div class="col-sm-12" style="padding: 5px; padding-left: 30px;" onclick="createPopup('exhB01')" id="popBtn">
+          <article class="thumbnail" style="border: none; width: 20%; float:left;">
+            <img src="images/Capture9.PNG" alt="Paris">
+          </article>
+          
+          <div style=" width: 80%;float: right; color: #000; text-align: left;">
+            <p style="margin-top: 2px;margin-left: 10%; font-size: 15px;"><strong>Mr.Hoang Toan Thang</strong></p>
+            <p style="font-size: 15px; margin-left: 10%;margin-right: 10%;">His extensive skills in various fields are the great asset for Jadon and its customers. Mr. Thang is an architect by training and have spent 15 years managing real estate developments. He is one of the founder of Jadon.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Nguyen Ngoc Thach -->
+        <div class="col-sm-12" style="padding: 5px; padding-left: 30px;" onclick="createPopup('exhB01')" id="popBtn">
+          <article class="thumbnail" style="border: none; width: 20%; float:left;">
+            <img src="images/Thach.jpg" alt="Paris">
+          </article>
+          
+          <div style=" width: 80%;float: right; color: #000; text-align: left;">
+            <p style="margin-top: 2px;margin-left: 10%; font-size: 15px;"><strong>Mr.Nguyen Ngoc Thach</strong></p>
+            <p style="font-size: 15px; margin-left: 10%;margin-right: 10%;">A writer, a politician, a person who cares about society, always strives to make society better, the experienced people in life always point out the essentials for all family happiness. Setting out the true steps to meet the requirements of society.</p>
+          </div>
+        </div>
+
+      <!-- Quach Gia Lam -->
+      <div class="col-sm-12" style="padding: 5px; padding-left: 30px;" onclick="createPopup('exhB01')" id="popBtn">
+        <article class="thumbnail" style="border: none; width: 20%; float:left;">
+          <img src="images/win.jpg" alt="Paris">
+        </article>
+        
+        <div style=" width: 80%;float: right; color: #000; text-align: left;">
+          <p style="margin-top: 2px;margin-left: 10%; font-size: 15px;"><strong>Mr.Quach Gia Lam</strong></p>
+          <p style="font-size: 15px; margin-left: 10%;margin-right: 10%;">He likes music, reading stories, watching movies. His nature is honest and diligent. He is a hard working man, always strives to gain good knowledge from everyone.</p>
+        </div>
+      </div>        
+      </div>
+    </div>      
+  </div>
+</div>
+
+<!--
 <ul id="li" class="col-sm-12" style="list-style-type:none;">
-   <li class="col-sm-12 well">
-    <h1><kbd>JADON events customized to you vision.</kbd></h1><br>
-    JADON Event Planning designs events that express your style and please your visual senses, while making sure that your vision laminates through every step. We create one of a kind event experiences throughout The HCM City.  Each event is distinctive, fun and absolutely unforgettable. Our mission is to guide and support you through an exquisite experience, from the first consultation to day of the event. <br>
-    
-    We are proficient with coordination and logistics and expert at on the spot problem solving. Commitment to generating exceptional ideas and solutions is our calling card. Thang’s diverse experience in sales, marketing and event planning has equipped he with unparalleled organizational skills and creativity that results in a smooth, innovative and stress free event experience.  Show Stopping Event Planning customizes events that are unique to our clients – from simple and professional to elegant and luxurious.  We specialize in weddings, corporate events and fundraising.  Celebrations and custom events are our passion.  Our only priority is to deliver an event that unquestionably exceeds your expectations.  Expect only the best because that is what you will get.  Take the next step and schedule a consultation today!
-    
-   </li>
   <li class="col-sm-12" style="height:auto;"  style="margin: auto;">
    <table  class="row col-sm-12 panel panel-default" style="text-align: center;">
      <tr class="panel-body">
@@ -169,6 +178,7 @@
    </table>
   </li>
 </ul>
+-->
 </div>
 
 </section>
@@ -185,11 +195,11 @@
 
 
 <!-- Footer -->
-<footer class="container-fluid navbar navbar-default text-center">
+<footer class="container-fluid text-center">
   <div class="navbar navbar-default" style="border-bottom: gray double thin;border-top: gray double thin; height: 50px;">
 
         <a href="#" style="padding: 30px;"><i class="fab fa-facebook-f fa-lg"></i></a>
-        <a href="#" style="padding: 30px;";><i class="fab fa-twitter fa-lg"></i></a>
+        <a href="#" style="padding: 30px;"><i class="fab fa-twitter fa-lg"></i></a>
         <a href="#" style="padding: 30px;"><i class="fab fa-instagram fa-lg"></i></a>
         <a href="#" style="padding: 30px;"><i class="fab fa-linkedin fa-lg"></i></a>
     </div>
@@ -204,10 +214,6 @@
     <a href="Press.html" style="padding: 2%;">PRESS</a>
     <a href="contact.html" style="padding: 2%;">CONTACT</a>
   </div>
-
-
-
-
 </footer>
 
 </body>

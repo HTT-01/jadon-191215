@@ -90,9 +90,9 @@
             "images/Final/School-01/poodar-chu-TTYFzgLidGM-unsplash.jpg",
         ];
         var chu_schl01=[
-            "Text for Schl01-1",
-            "Text for Schl01-2",
-            "Text for Schl01-3",
+            "In the program about sixty Vietnamese students, graduate and under-graduate, come to Canada for 2 years to study 2 afer years studying in RMIT Vietnam.",
+            "Jadon is commissioned to take all students and their parents to Trent University,joing with Canadian students, to participate in the student's graduation ceremony which was conducted by Jadon's team.",
+            "The group of RMIT students taking picture together in Trent university, including Nguyen Tu Anh (L) and Nguyen Thi Thuy Linh who are now working as event managers at Jadon.",
         ];
         // Images Data for School-02
         var hinh_schl02=[
@@ -101,9 +101,9 @@
             "images/Final/School-02/adrian-dascal-b4kBc7hFG74-unsplash.jpg",
         ];
         var chu_schl02=[
-            "Text for Schl02-1",
-            "Text for Schl02-2",
-            "Text for Schl02-3",
+            "as part of the campaign, Jadon organized for 20 secondary students of BIS visited and participated in cultural exchange with Brasilia International School",
+            "Vietnamese students and their Brazilian counterparts will perform dancing, singing, play soccer, cook food.",
+            "As proven case of success of this marketing campaign in 2019, Jadon and BIS have had agreement and Jadon is working on BIS's 2020 marketing campaign.",
         ];
         // Images Data for School-03
         var hinh_schl03=[
@@ -117,14 +117,14 @@
             "images/Final/School-03/antenna-ZDN-G1xBWHY-unsplash.jpg",
         ];
         var chu_schl03=[
-            "Text for Schl03-1",
-            "Text for Schl03-2",
-            "Text for Schl03-3",
-            "Text for Schl03-4",
-            "Text for Schl03-5",
-            "Text for Schl03-6",
-            "Text for Schl03-7",
-            "Text for Schl03-8",
+            "Taking place over 3 days, the Annual Conference is an opportunity to engage with new research, hear leading keynotes, broaden networks and exchange ideas.",
+            "It attracts over 500 international delegates, speakers and publishers each year",
+            "The conference will host sessions that think in expanded ways about the materials of art history and visual culture, and the diverse sites and circumstances of its production and circulation. ",
+            "Some connect art histories with pressing topics in humanities, such as the role of migration and its legacies in global histories, and the relation between image and planet. ",
+            "Other sessions encourage reflections on how our activities as writers, educators and theorists enrich and stimulate our professional practices.",
+            "There were a professional programme of selected workshops and roundtables that reflect current issues within education, museums and cultural institutions – these will be open to the public as well as delegates.",
+            "There will also be a range of tours, visits and screenings available to conference delegates",
+            "2019 is the first year of this event that has Jadon event management as a co-host.",
         ];
         // Images Data for School-04
         var hinh_schl04=[
@@ -134,10 +134,10 @@
             "images/Final/School-04/md-duran-E0ylfF52C6M-unsplash.jpg",
         ];
         var chu_schl04=[
-            "Text for Schl04-1",
-            "Text for Schl04-2",
-            "Text for Schl04-3",
-            "Text for Schl04-4",
+            "The competition will be a series of school, district competitions and final round of 10 selected schools",
+            "Jadon will have to follow a set of rule by the host while carying out the events to keep the integrity and spirit of the union",
+            "At the same time, the performance of the contestants need to be current and attractive to the youth",
+            "Preparation and logistic is urgently underway to get start right after Tet holday of 2020.",
         ];
         // Images Data for School-05
         var hinh_schl05=[
@@ -151,14 +151,14 @@
             "images/Final/School-05/IMG_2658-1024x683.jpg",
         ];
         var chu_schl05=[
-            "Text for Schl05-1",
-            "Text for Schl05-2",
-            "Text for Schl05-3",
-            "Text for Schl05-4",
-            "Text for Schl05-5",
-            "Text for Schl05-6",
-            "Text for Schl05-7",
-            "Text for Schl05-8",
+            "More than 200 5th-grade students, the WISHers are sharing their memorable moment of the graduation day.",
+            "Wellspring International Bilingual School officially started its first academic year in August, 2011",
+            "Wellspring School in Ho Chi Minh city also went into operation in August 2014.",
+            "Wellspring is the first bilingual school in Vietnam recognized by Cambridge International Examinations as Cambridge standard school.",
+            "WISher Đoàn Minh Phương – class 5A6 on behalf of all 5th-grader gave a speech expressing their apprciation with all teachers and faculty",
+            "WISHer Trần Nguyễn Hoàng Tùng of class 5A6 và famous saxophone player Quyền Văn Minh is perfoming 'Mùa xuân đầu tiên' ('the first spring').",
+            "Wellspring has partnered with Missouri High School (part of University of Missouri) to open a new program (dual certification) for grade 9 since school year 2014 – 2015.",
+            "Jadon is commissioned to organize all large events of Wellspring International Bilingual School. This includes graduation days, field trips, faculty team vacation, summer class abroad and so on.",
         ];
         // Images Data for School-06
         var hinh_schl06=[
@@ -166,18 +166,12 @@
             "images/Final/School-06/product-school-jYzQvDu7ZyE-unsplash.jpg",
             "images/Final/School-06/product-school-YrJ99TBRQvI-unsplash.jpg",
             "images/Final/School-06/product-school-nOvIa_x_tfo-unsplash.jpg",
-            "images/Final/School-06/product-school--GajrOEN6m4-unsplash.jpg",
-            "images/Final/School-06/product-school-R7mvaKQf-IA-unsplash.jpg",
-            "images/Final/School-06/you-x-ventures-4-iZ147pSAE-unsplash.jpg",
         ];
         var chu_schl06=[
-            "Text for Schl06-1",
-            "Text for Schl06-2",
-            "Text for Schl06-3",
-            "Text for Schl06-4",
-            "Text for Schl06-5",
-            "Text for Schl06-6",
-            "Text for Schl06-7",
+            "Product School held its online conference called “The Virtual Product Summit” on October 24th, 2019 where professional product leaders from widely known tech companies shared their experience, strategies and best practices in product management.",
+            "Product School is a company providing product management training courses to professionals from all over the world. Having over 20 campuses worldwide, Product School has a powerful community of skilled senior instructors who train product managers with a flexible part-time course schedule.",
+            "Jadon has become Product School partner in March 2019. Jadon is in charge of all Product School conference in the South East Asian area",
+            "Multiple vital and interesting topics were discussed during the online conference around building products, crafting their value proposition and choosing their role depending on the business and much more. Participants were also able to learn about product branding and growth.",
         ];
 
     // Images Data for Private Events ===============================================
@@ -194,13 +188,13 @@
             "images/Final/Private-01/201908241252044718-1cb0f579-a346-4f2d-9143-9f5915b7ce4b.jpg",
         ];
         var chu_priv01=[
-            "Text for priv01-1",
-            "Text for priv01-2",
-            "Text for priv01-3",
-            "Text for priv01-4",
-            "Text for priv01-5",
-            "Text for priv01-6",
-            "Text for priv01-7",
+            "To maintain and to promote the image of Mis Vietnam, Jadon carefully plan out all events for Ms Tieu Vy, including her birthday party.",
+            "This is her 19th birthday, one year after she won the title Miss Vietnam.",
+            "The party is within a close group of her family and about 20 high profile celebrities",
+            "The guest list include Miss Vietnam 2016 Đỗ Mỹ Linh, 2nd Miss Vietnam 2018 Bùi Phương Nga, 2nd Miss Vietnam 2018 Thúy An, 2nd Miss Vietnam 2014 Diễm Trang.",
+            "Especially Jadon has invited Ms Phạm Kim Dung, known as the manager of all the beauty contest, and the famous Mr. Hoàng Nhật Nam.",
+            "Tieu Vy was born and raised in Quảng Nam, Vietnam. She is a student of Ho Chi Minh City Pedagogical University. ",
+            "She represented Vietnam at the Miss World 2018 pageant.",
             "Text for priv01-8",
         ];
         // Images Data for Private-02
@@ -213,12 +207,12 @@
             "images/Final/Private-02/sinh-nhat-am-ap-ben-ban-be-cua-hoa-hau-princerss-ngoc-han-6.jpg",
         ];
         var chu_priv02=[
-            "Text for priv02-1",
-            "Text for priv02-2",
-            "Text for priv02-3",
-            "Text for priv02-4",
-            "Text for priv02-5",
-            "Text for priv02-6",
+            "Jadon is representing many Vietnamese celebrities and managing all their events. Here is birthday party for Miss Glam World 2018, Ngoc Han.",
+            "Jadon team has thrown her an amazingly impressive birthday, including a Charlie and The Chocolate Factory themed party.",
+            "Jadon flew 20 of her closest family and friends to party with her around the world.",
+            "Jadon had the guests escorted to the event in a fleet of the limousine.",
+            "Jadon is managing a hugh list of Vietnamese celebrities and will continue to grow as part of the event management eco-sphere",
+            "Many celebrities like Ngoc Han has become Jadon's contributer or partner",
         ];
         // Images Data for Private-03
         var hinh_priv03=[
@@ -228,10 +222,10 @@
             "images/Final/Private-03/matty-adame-KpZuW7VmPoA-unsplash.jpg",
         ];
         var chu_priv03=[
-            "Text for priv03-1",
-            "Text for priv03-2",
-            "Text for priv03-3",
-            "Text for priv03-4",
+            "A group of Vietnamese alumni of an architecture school wanted their reunion party at Parq SD in San Diego",
+            "Without any contact in San Diego, but with Affiliate company in Los Angeles, Jadon has completed the task in total satisfaction of the client",
+            "A group of young Vietnamese music lovers has connection with famous DJ in Los Angeles. They come to Jadon with the chalenging task of creating a techno night by this DJ which will be playing their favourite mix.",
+            "Jadon has sucessfully convinced this DJ and organize the techno night as requested. The night went down with hugh crowd and spectacular fun.",
         ];
     
         // Images Data for Wedding ===============================================
@@ -244,10 +238,10 @@
             "images/Final/Wedding-01/chuttersnap-aEnH4hJ_Mrs-unsplash.jpg",
         ];
         var chu_wedd01=[
-            "Text for wedd01-1",
-            "Text for wedd01-2",
-            "Text for wedd01-3",
-            "Text for wedd01-4",
+            "The couple are sucessful financial executives working in HCMC.",
+            "Facinated by old hispanic architecture in California where they first met, the couple bought a villa in Danang and retrofit it to their favourite style.",
+            "Jadon was asked to sculpt a wedding to this theme for about 90 guests.",
+            "Guests are flying in from all over the world and they are well received by Jadon team and their first class arrangement of travel and accomodation.",
         ];
         // Images Data for Wedding-02
         var hinh_wedd02=[
@@ -261,7 +255,7 @@
             "images/Final/Wedding-02/g_Zing.jpg",
         ];
         var chu_wedd02=[
-            "Text for wedd02-1",
+            "Miss Tu Anh got her title when she was a freshman at Academy of Journalism and Communication",
             "Text for wedd02-2",
             "Text for wedd02-3",
             "Text for wedd02-4",
