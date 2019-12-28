@@ -16,7 +16,7 @@ Project title: JADON - Event Management Service Website
 
 ============================
 
-github report link: https://github.com/HTT-01/jadon-191215/eProject-Documentation/
+github report link: https://github.com/HTT-01/jadon-191215/tree/master/eProject-Documentation
 
 ============================
 
