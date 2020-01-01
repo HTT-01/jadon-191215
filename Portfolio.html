@@ -25,9 +25,12 @@
 
   <link rel="stylesheet" href="css/bootstrapTheme-SimplyMe.css">
   <link rel="stylesheet" href="css/bootstrapTheme-Marketing.css">
+
+  <link rel="stylesheet" href="css/OtherThinhgs.css">
   
   <link rel="stylesheet" href="css/modal.css">
   <script src="js/modal.js"></script>
+
   <style>
 
   </style>
@@ -35,9 +38,9 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-default">
-  <div class="container-fluid" style="border-bottom: gray double thin;border-top: gray double thin;">
-    <a class="navbar-brand navbar-center" href="index.html"><img src="images/JADON-logo/Modification/logo_transparent-HTT_clipped.png" alt="" style="max-height: 280%;"></a> 
+<nav class="navbar navbar-default"  style="border-bottom: gray double thin; position: sticky; top: 0px; z-index: 130; height: 110px;padding-top: 0;">
+  <div class="container-fluid" style="border-top: gray double thin; height: 30px;">
+    <a class="navbar-brand navbar-center" href="index.html"><img src="images/JADON-logo/Modification/logo_transparent-HTT-02.png" alt="" style="max-height: 200%;padding-top: 0px;"></a> 
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -47,47 +50,89 @@
     </div>
 
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-midRight" style="height: 100%;">
+      <ul class="nav navbar-nav navbar-midRight">
         <li class="dropdown">
           <a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fas fa-bars fa-lg"></i></a>
           <ul class="dropdown-menu">
-            <li>
-              <a class="list-group-item dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-chevron-right
+            <!-- Portfolio -->
+            <li><a href="index.html"><span class="glyphicon glyphicon-chevron-right
+              "></span>HOME</a></li>
+            <!-- Portfolio -->
+            <li  class="dropdown-submenu">
+              <a class="list-group-item dropdown-toggle" href="Portfolio.html"><span class="glyphicon glyphicon-chevron-right
               "></span>Portfolio</a>
-              <ul class="dropdown-menu">
-                <a href="" class="list-group-item"><li>Corporate</li></a>
-                <a href="" class="list-group-item"><li>School</li></a>
-                <a href="" class="list-group-item"><li>Wedding</li></a>
+              
+              <ul class="dropdown-submenu">
+                <li style="opacity: 0.7;"><a href="Portfolio.html#locCorp" ><span class="fas fa-caret-right
+                    "></span>Corporate</a></li>
+                <li style="opacity: 0.7;"><a href="Portfolio.html#locSchl" tabindex="-1"><span class="fas fa-caret-right
+                    "></span>School</a></li>
+                <li style="opacity: 0.7;"><a href="Portfolio.html#locPriv" tabindex="-1"><span class="fas fa-caret-right
+                    "></span>Private</a></li>
+                <li style="opacity: 0.7;"><a href="Portfolio.html#locWedd" tabindex="-1"><span class="fas fa-caret-right
+                    "></span>Weddings</a></li>
+                <li style="opacity: 0.7;"><a href="Portfolio.html#locOthe" tabindex="-1"><span class="fas fa-caret-right
+                    "></span>Others</a></li>
               </ul>
             </li>
-            <li><a href="">action 2</a></li>
-            <li><a href="">action 3</a></li>
+
+            <!-- Services -->
+            <li  class="dropdown-submenu">
+              <a class="list-group-item dropdown-toggle" href="services.html"><span class="glyphicon glyphicon-chevron-right
+              "></span>Services</a>
+              
+              <ul class="dropdown-submenu">
+                <li style="opacity: 0.7;"><a href="services1.html" ><span class="fas fa-caret-right
+                    "></span>Turn Key Premium</a></li>
+                <li style="opacity: 0.7;"><a href="services2.html" tabindex="-1"><span class="fas fa-caret-right
+                    "></span>Limited Edition</a></li>
+                <li style="opacity: 0.7;"><a href="services3.html" tabindex="-1"><span class="fas fa-caret-right
+                    "></span>À La Carte</a></li>
+                <li style="opacity: 0.7;"><a href="services.html#serviceIntro" tabindex="-1"><span class="fas fa-caret-right
+                    "></span>Service Offerings</a></li>
+              </ul>
+            </li>
+            <li><a href="Gallery.html"><span class="glyphicon glyphicon-chevron-right"></span>Gallery</a></li>
+            <li><a href="Press.html"><span class="glyphicon glyphicon-chevron-right"></span>Press</a></li>
+            <li><a href="Reviews.html"><span class="glyphicon glyphicon-chevron-right"></span>Reviews</a></li>
+            <li><a href="Team.html"><span class="glyphicon glyphicon-chevron-right"></span>Team</a></li>
+            <li><a href="contact.html"><span class="glyphicon glyphicon-chevron-right"></span>Contact</a></li>
             <li class="divider"></li>
-            <li><a href="">seperated link</a></li>
+            <li><a href="contact.html#mapJadon">Office Location</a></li>
+            <li class="divider"></li>
+            <li>        
+              <a href="UnderConstruction.html" style="padding: 0px; padding-left: 20px; padding-right: 10px; display: inline-block;" title="under construction"><i class="fab fa-facebook-f fa-lg"></i></a>
+              <a href="UnderConstruction.html" style="padding: 0px; padding-left: 10px; padding-right: 10px; display: inline-block;"><i class="fab fa-twitter fa-lg"></i></a>
+              <a href="UnderConstruction.html" style="padding: 0px; padding-left: 10px; padding-right: 10px; display: inline-block;"><i class="fab fa-instagram fa-lg"></i></a>
+              <a href="UnderConstruction.html" style="padding: 0px; padding-left: 10px; padding-right: 10px; display: inline-block;"><i class="fab fa-linkedin fa-lg"></i></a>
+            </li>
           </ul>
         </li>
       </ul>
       <ul class="nav navbar-nav navbar-right navbar-midLeft">
         <li><a href="#"><i class="fas fa-comment fa-lg"  onclick="document.getElementById('id01').style.display='block'" style="width:auto;"></i></a></li>
-        <li><a href="#"><i class="fas fa-envelope fa-lg"></i></a></li>
+        <li><a href="mailto:inquiries@jadon.com"><i class="fas fa-envelope fa-lg"></i></a></li>
       </ul>
     </div>
   </div>
+</nav>
 
-  <div style="height: 50px;border-bottom: gray double thin;"> 
+<nav class="navbar navbar-default" style="border-bottom: gray double thin;">
+    <div style="padding: 0; margin: 0;"> 
       <ul class="nav navbar-nav navbar-right" style="font-size: 0.8em; margin: 0; padding: 0;">
-        <li><a href="services.html">SERVICES</a></li>
-        <li><a href="Portfolio.html">PORTFOLIO</a></li>
-        <li><a href="Gallery.html">GALLERY</a></li>
-        <li><a href="Team.html">TEAM</a></li>
-        <li><a href="Press.html">PRESS</a></li>
-        <li><a href="contact.html">CONTACT</a></li>   
+        <li><a href="Portfolio.html" style="margin: 0;padding-top: 0;padding-bottom: 0; z-index: 140;">PORTFOLIO</a></li>
+        <li><a href="services.html" style="margin: 0;padding-top: 0px;padding-bottom: 0px; z-index: 140;">SERVICES</a></li>
+        <li><a href="Gallery.html" style="margin: 0;padding-top: 0;padding-bottom: 0; z-index: 140;">GALLERY</a></li>
+        <li><a href="Team.html" style="margin: 0;padding-top: 0;padding-bottom: 0; z-index: 140;">TEAM</a></li>
+        <li><a href="Press.html" style="margin: 0;padding-top: 0;padding-bottom: 0; z-index: 140;">PRESS</a></li>
+        <li><a href="Reviews.html" style="margin: 0;padding-top: 0;padding-bottom: 0; z-index: 140;">REVIEWS</a></li>
+        <li><a href="contact.html" style="margin: 0;padding-top: 0;padding-bottom: 0; z-index: 140;">CONTACT</a></li>   
       </ul>
   </div>
 </nav>
 
 <!-- First Container - CAROUSEL -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="4000">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -95,11 +140,19 @@
       <li data-target="#myCarousel" data-slide-to="2"></li>
       <li data-target="#myCarousel" data-slide-to="3"></li>
       <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div id="wrapperForslides" class="item active">
+        <img src="images/Final/rebecca-wiggins-iRY8tMA4Uq4-unsplash-3x4.jpg" alt="Image">
+        <div class="carousel-caption" style="top: 20%;">
+            <i style="font-size: 50px; color: white;">our works ...</i>
+        </div>      
+      </div>
+
+      <div class="item">
         <img src="images/Final/Corporate-02/fred-kloet-Cv7Y0v51zEo-unsplash.jpg" alt="Image">
         <div class="carousel-caption" style="top: 20%;">
             <a href="#locCorp"><h1 style="font-size: 100px; color: white;">CORPORATE</h1></a>
@@ -130,10 +183,19 @@
       <div class="item">
         <img src="images/Final/Exhibition-01/cay-dai-thu-dieu-khac-viet-ta-quang-bao-to-chuc-trien-lam-Hinh-3.jpg" alt="Image">
         <div class="carousel-caption" style="top: 20%;">
-            <a href="#locOthe"><h1 style="font-size: 100px; color: white;">...HOW ABOUT...</h1></a>
+            <a href="#locOthe"><i style="font-size: 50px; color: white;">...how about...</i></a>
         </div>      
       </div>
 
+    <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style="z-index: 120;">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style=" top: 40%;"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style="z-index: 120;">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style=" top: 40%;"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
 </div>
 
@@ -147,7 +209,7 @@
           <p>Whatever spectacular idea you have in mind, we probably have done it in full satisfaction</p>  
           <p>JADON is a full service event management firm based in Hochiminh city, Vietnam that was created by pairing together our passion for business and events. We bring a fresh, unique approach to the event management industry.</p>
         </div>
-        <div style="text-align: center; font-size: 0.5em; color: rgb(red, green, blue);">
+        <div style="text-align: center; font-size: 0.1em; color: rgb(red, green, blue);"  id="locCorp">
             <a href="https://www.debililly.com/about">a</a><br><br>
         </div>
     </div>
@@ -157,7 +219,7 @@
 <div class="container-fluid text-center bg-grey" style="padding-bottom: 70px;">
   
   <!-- CORPORATE portfolio -->  
-  <div style="margin: auto; width: 90%; border-top: 1px solid #c9a16e; border-bottom: 1px solid #c9a16e;" id="locCorp">
+  <div class="container" style="margin: auto; width: 90%; border-top: 1px solid #c9a16e; border-bottom: 1px solid #c9a16e;">
     <div style="color: #000;text-align: center;">
       <h3 style="padding-top: 20px; font-size: 25px; font-weight: 100; line-height: 1.5;">CORPORATE EVENTS</h3>
       <p style="font-size: 12px; font-weight: 100; line-height: 0.5;">We present your business to the world</p>
@@ -170,8 +232,8 @@
           <div id="Pop-Corp01" class="thumbnail" style="border: none; color: #000; text-align: justify;">
             <img src="images/Final/Corporate-01/fred-kloet-NVTbyTPsgAk-unsplash.jpg">
 
-            <p style="margin-top: 10px;"><strong>Fund Raising - IPO's roadshow</strong></p>
-            <p style="font-size: 12px;">This is for City Garden's investment offering event in Hilton Amsterdam Airport Schiphol. Jadon Event Management succesfully delivered a full service 3 day roadshow for City Garden, a real estate company. The client has signed over US$ 3 million investment commitment from 2 European Funds.</p>   
+            <p style="margin-top: 10px; font-size: 11px;"><strong>Fund Raising - IPO's roadshow</strong></p>
+            <p style="font-size: 11px;">This is for City Garden's investment offering event in Hilton Amsterdam Airport Schiphol. Jadon Event Management succesfully delivered a full service 3 day roadshow for City Garden, a real estate company. The client has signed over US$ 3 million investment commitment from 2 European Funds.</p>   
           </div>
         
       </div>
@@ -181,8 +243,8 @@
         <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
           <img src="images/Final/Corporate-06/thumbnail-1.jpg">
 
-          <p style="margin-top: 10px;"><strong>Real Estate Company Reception</strong></p>
-          <p style="font-size: 12px;">TTC group is a multi-billion-dollar company doing business in various fields. It is known as one of the most succesfull real estate company in HCMC. Jadon earned the trust and have become like an "in-house" event organizer for TTC group. Here is the Year End Party of TTC group in 2017.</p> 
+          <p style="margin-top: 10px; font-size: 11px;"><strong>Real Estate Company Reception</strong></p>
+          <p style="font-size: 11px;">TTC group is a multi-billion-dollar company doing business in various fields. It is known as one of the most succesfull real estate company in HCMC. Jadon earned the trust and have become like an "in-house" event organizer for TTC group. Here is the Year End Party of TTC group in 2017.</p> 
         </div>
       </div>
 
@@ -191,16 +253,20 @@
         <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
           <img src="images/Final/Corporate-03/evangeline-shaw-ZG1WIcFHAkQ-unsplash-3x4.jpg">
 
-          <p style="margin-top: 10px;"><strong>the World Economic Forum 2019</strong></p>
-          <p style="font-size: 12px;">Jadon Event Management is proud to be the designer, builder and operator of all exhibition, display and forum facilities of the World Economic Forum 2019. Jadon's task here is also to cordinate the travel and accomodation for the guests of the Forum coming from South East Asian area.</p> 
+          <p style="margin-top: 10px; font-size: 11px;"><strong>the World Economic Forum 2019</strong></p>
+          <p style="font-size: 11px;">Jadon Event Management is proud to be the designer, builder and operator of all exhibition, display and forum facilities of the World Economic Forum 2019. Jadon's task here is also to cordinate the travel and accomodation for the guests of the Forum coming from South East Asian area. </span></p>
+          <span id="locSchl"> 
         </div>
       </div>
     </div>        
+    <div  style="height: 0px;"></div>
+    <a href="Gallery.html#locCorp"><i style="font-size: 0.7em; padding-top: 100px;"> ... our corporate gallery ...</i></a>
   </div>
+  
 </div>
 
 <!-- Fourth Container (6 col with text under and centered) - SCHOOL PORTFOLIO-->
-<div class="container-fluid text-center bg-grey" style="padding-top: 70px;" id="locSchl">
+<div class="container-fluid text-center bg-grey" style="padding-top: 70px; padding-bottom: 50px;">
   <div style="margin: auto; width: 90%; border-top: 1px solid #c9a16e;border-bottom: 1px solid #c9a16e;">
     <div style="color: #000;text-align: center; padding-left: 10px;">
       <h3 style="padding-top: 20px; font-size: 25px; font-weight: 100; line-height: 1.5;">SCHOOL EVENTS</h3>
@@ -214,7 +280,7 @@
         <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
           <img src="images/Final/School-01/poodar-chu-TTYFzgLidGM-unsplash-thumbnail.jpg" alt="New York">
 
-          <p style="margin-top: 10px;font-size: 10px;">RMIT university in district 7 HCMC was doing a special exchange student program with Trent university in Peterborough,Canada.</p> 
+          <p style="margin-top: 10px;font-size: 11px;">RMIT university in district 7 HCMC was doing a special exchange student program with Trent university in Peterborough,Canada.</p> 
         </div>        
       </div>
       <!-- School-02 -->
@@ -222,7 +288,7 @@
         <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
           <img src="images/Final/School-02/adrian-dascal-sKMonmERuPQ-unsplash-3x4.jpg" alt="New York">
 
-          <p style="margin-top: 10px; font-size: 10px;">10 days trip, 2 visits to North America schools for prospect Vietnameses students and their parents as part of Jadon's marketing campaign for Britsih International School in HCMC.</p">
+          <p style="margin-top: 10px; font-size: 11px;">10 days trip, 2 visits to North America schools for prospect Vietnameses students and their parents as part of Jadon's marketing campaign for Britsih International School in HCMC.</p">
         </div>
       </div>
       <!-- School-03 -->
@@ -230,7 +296,7 @@
         <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
           <img src="images/Final/School-03/antenna-Toa2OEjWlAU-unsplash.jpg" alt="San Francisco">
           
-          <p style="margin-top: 10px; font-size: 10px;">Faculty of University of Architecture Hochiminh city participate in Art History’s Annual Conference 2019 by Association for Art History, Jadon Event Management and University of Brighton</p">
+          <p style="margin-top: 10px; font-size: 11px;">Faculty of University of Architecture Hochiminh city participate in Art History’s Annual Conference 2019 by Association for Art History, Jadon Event Management and University of Brighton</p">
         </div>
       </div>
       <!-- School-04 -->
@@ -238,7 +304,7 @@
         <div class="thumbnail" style="border: none;color: #000; text-align: justify;">
           <img src="images/Final/School-04/md-duran-E0ylfF52C6M-unsplash-3x4.jpg" alt="Paris">
           
-          <p style="margin-top: 10px; font-size: 10px;">Preparation of the HCMC school band fest in 2020. The event is hosted by HoChiMinh Communist Youth Union of HCM city and organized by Jadon.</p>
+          <p style="margin-top: 10px; font-size: 11px;">Preparation of the HCMC school band fest in 2020. The event is hosted by HoChiMinh Communist Youth Union of HCM city and organized by Jadon.</p>
         </div>
       </div>
       <!-- School-05 -->          
@@ -246,7 +312,7 @@
         <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
           <img src="images/Final/School-05/IMG_2009-1024x683-3x4.jpg" alt="New York">
                     
-          <p style="margin-top: 10px; font-size: 10px;">Jadon is commissioned to organize all large events of Wellspring International Bilingual School. This includes graduation days, field trips, faculty team vacation, summer class abroad and so on.</p">
+          <p style="margin-top: 10px; font-size: 11px;">Jadon is commissioned to organize all large events of Wellspring International Bilingual School. This includes graduation days, field trips, faculty team vacation, summer class abroad and so on.</p">
         </div>
       </div>
       <!-- School-06 -->           
@@ -254,19 +320,22 @@
         <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
           <img src="images/Final/School-06/product-school--GajrOEN6m4-unsplash-3x4.jpg" alt="San Francisco">
                     
-          <p style="margin-top: 10px; font-size: 10px;">Jadon is teaming up with Product School, an online school specialzing in Product Management. Jadon will organize all Product School in South East Asian region.</p>
+          <p style="margin-top: 10px; font-size: 11px;">Jadon is teaming up with Product School, an online school specialzing in Product Management. Jadon will organize all Product School in South East Asian region.</p>
         </div>
-      </div>
-
-    </div>        
+      <span ></span>
+    </div>
+      
+    </div>
+    <div  style="height: 0px;"></div>
+    <a href="Gallery.html#locSchl"><i style="font-size: 0.7em; padding-top: 100px;"> ... our School gallery ...</i></a>
   </div>
 </div>
 
 <!-- Fifth Container (3 col sqr Pics text under and centered) - PRIVATE EVENTS -->
-<div class="container-fluid text-center bg-grey" style="padding-bottom: 70px;">
+<div class="container-fluid text-center bg-grey" style="padding-bottom: 70px;padding-top: 90px;" id="locPriv">
   
   <!-- PRIVATE portfolio -->  
-  <div style="margin: auto; width: 90%; border-top: 1px solid #c9a16e; border-bottom: 1px solid #c9a16e;" id="locPriv">
+  <div style="margin: auto; width: 90%; border-top: 1px solid #c9a16e; border-bottom: 1px solid #c9a16e;">
     <div style="color: #000;text-align: center;">
       <h3 style="padding-top: 20px; font-size: 25px; font-weight: 100; line-height: 1.5;">PRIVATE EVENTS</h3>
       <p style="font-size: 12px; font-weight: 100; line-height: 0.5;">Big or small, the joy is in the details</p>
@@ -279,8 +348,8 @@
           <div id="Pop-Corp01" class="thumbnail" style="border: none; color: #000; text-align: justify;">
             <img src="images/Final/Private-01/hoa-hau-tran-tieu-vy-va-me-du-tiec-sinh-nhat-day-xuc-dong-a3a3943e-SQR.jpg">
 
-            <p style="margin-top: 10px;"><strong>birthday party for Mis Vietnam 2018, Tran Tieu Vy</strong></p>
-            <p style="font-size: 12px;">Jadon and partner work as exclusive agent for Ms Tran Tieu Vy. Jadon is in charge of managing and carrying out all event that Ms Tieu Vy participated.</p>   
+            <p style="margin-top: 10px;font-size: 11px;"><strong>birthday party for Mis Vietnam 2018, Tran Tieu Vy</strong></p>
+            <p style="font-size: 11px;">Jadon and partner work as exclusive agent for Ms Tran Tieu Vy. Jadon is in charge of managing and carrying out all event that Ms Tieu Vy participated.</p>   
           </div>
         
       </div>
@@ -290,8 +359,8 @@
         <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
           <img src="images/Final/Private-02/SQR-sinh-nhat-am-ap-ben-ban-be-cua-hoa-hau-princerss-ngoc-han-4.jpg">
 
-          <p style="margin-top: 10px;"><strong>birthday party for Miss Glam World 2018, Ngoc Han</strong></p>
-          <p style="font-size: 12px;">Jadon is representing many Vietnamese celebrities and managing all their events. Here is birthday party for Miss Glam World 2018, Ngoc Han.</p> 
+          <p style="margin-top: 10px;font-size: 11px;"><strong>birthday party for Miss Glam World 2018, Ngoc Han</strong></p>
+          <p style="font-size: 11px;">Jadon is representing many Vietnamese celebrities and managing all their events. Here is birthday party for Miss Glam World 2018, Ngoc Han.</p> 
         </div>
       </div>
 
@@ -300,17 +369,19 @@
         <div class="thumbnail" style="border: none; color: #000; text-align: justify;">
           <img src="images/Final/Private-03/SQR-matty-adame-nLUb9GThIcg-unsplash.jpg">
 
-          <p style="margin-top: 10px;"><strong>name a space your event will be happening there</strong></p>
-          <p style="font-size: 12px;">Special private event is organized anywhere you like in the world. A reunion party was organized in Parq SD in San Diego with famous local DJ, or an outdoor Techno night in the park, Jadon have done it</p> 
+          <p style="margin-top: 10px; font-size: 11px;"><strong>name a space your event will be happening there</strong></p>
+          <p style="font-size: 11px;">Special private event is organized anywhere you like in the world. A reunion party was organized in Parq SD in San Diego with famous local DJ, or an outdoor Techno night in the park, Jadon have done it</p> 
         </div>
       </div>
-    </div>        
+    </div> 
+    <div  style="height: 0px;"></div>
+    <a href="Gallery.html#locPriv"><i style="font-size: 0.7em; padding-top: 100px;"> ... our Private gallery ...</i></a>       
   </div><p id="locWedd"></p>
 </div>
 
 <!-- Sixth Container (3 col w/ SQR image) - WEDDING PORTFOLIO-->
 <div class="container-fluid text-center bg-grey" style="padding-bottom: 70px;">
-  <div style="margin: auto; width: 90%; border-top: 1px solid #c9a16e; border-bottom: 1px solid #c9a16e; height: 400px;">
+  <div class="container" style="margin: auto; width: 90%; border-top: 1px solid #c9a16e; border-bottom: 1px solid #c9a16e;">
       <div style="color: #000;text-align: center;">
           <h3 style="padding-top: 20px; font-size: 25px; font-weight: 100; line-height: 1.5;">WEDDING</h3>
           <p style="font-size: 12px; font-weight: 100; line-height: 0.5;">The reality is better than your dream</p>
@@ -323,8 +394,8 @@
           </article>
             
           <div style=" width: 50%;float: right; color: #000; text-align: left;">
-            <p style="margin-top: 2px;margin-left: 10%; font-size: 10px;"><strong>Mat and Olivia wedding in a retro old-hispanic-style villa in Danang</strong></p>
-            <p style="font-size: 10px; margin-left: 10%;margin-right: 10%;">Jadon was asked to sculpt a wedding to an old Hispanic theme for about 90 geusts.</p>
+            <p style="margin-top: 2px;margin-left: 10%; font-size: 11px;"><strong>Mat and Olivia wedding in a retro old-hispanic-style villa in Danang</strong></p>
+            <p style="font-size: 11px; margin-left: 10%;margin-right: 10%;">Jadon was asked to sculpt a wedding to an old Hispanic theme for about 90 geusts.</p>
           </div>
         </div>
         <!-- Wedding-02 -->
@@ -334,8 +405,8 @@
           </article>
           
           <div style=" width: 50%;float: right; color: #000; text-align: left;">
-            <p style="margin-top: 2px;margin-left: 10%; font-size: 10px;"><strong>Wedding of Miss Vietnam 2012 Duong Tu Anh</strong></p>
-            <p style="font-size: 10px; margin-left: 10%;margin-right: 10%;">Since she was crowned in 2012 Miss Vietnam has been working restlessly on countless number of projects with Jadon. In July 2018 Tu Anh get married and again Jadon is there with her in her special moment.</p>
+            <p style="margin-top: 2px;margin-left: 10%; font-size: 11px;"><strong>Wedding of Miss Vietnam 2012 Duong Tu Anh</strong></p>
+            <p style="font-size: 11px; margin-left: 10%;margin-right: 10%;">Since she was crowned in 2012 Miss Vietnam has been working restlessly on countless number of projects with Jadon. In July 2018 Tu Anh get married and again Jadon is there with her in her special moment.</p>
           </div>
         </div>
         <!-- Wedding-03 -->
@@ -345,19 +416,22 @@
           </article>
           
           <div style=" width: 50%;float: right; color: #000; text-align: left;">
-            <p style="margin-top: 2px;margin-left: 10%; font-size: 10px;"><strong>Wedding of the Top Model Tuyet Lan</strong></p>
-            <p style="font-size: 10px; margin-left: 10%;margin-right: 10%;">Tuyet lan is currently the most sucessful model of Vietnam and she is recognized in the international fashion industry</p>
+            <p style="margin-top: 2px;margin-left: 10%; font-size: 11px;"><strong>Wedding of the Top Model Tuyet Lan</strong></p>
+            <p style="font-size: 11px; margin-left: 10%;margin-right: 10%;">Tuyet lan is currently the most sucessful model of Vietnam and she is recognized in the international fashion industry</p>
           </div>
         </div>
       </div>        
+      <div  style="height: 0px;"></div>
+      <a href="Gallery.html#locWedd"><i style="font-size: 0.7em; padding-top: 100px;"> ... our Weding gallery ...</i></a>  
   </div>
+
 </div>
 
 <!-- Seventh Container (2 col SQR img text both sides) - OTHER THINGS PORTFOLIO-->
-<div class="container-fluid text-center bg-grey" style="padding-bottom: 0;">
-  <div style="margin: auto; width: 90%; border-top: 1px solid #c9a16e; border-bottom: 1px solid #c9a16e; height: 400px;" id="locOthe">
+<div class="container-fluid text-center bg-grey" style="padding-bottom: 0;" id="locOthe">
+  <div class="container" style="margin: auto; width: 90%; border-top: 1px solid #c9a16e; border-bottom: 1px solid #c9a16e;">
       <div style="color: #000;text-align: center;">
-          <h3 style="padding-top: 20px; font-size: 25px; font-weight: 100; line-height: 1.5;">...HOW ABOUT...</h3>
+          <h3 style="padding-top: 0px; font-size: 25px; font-weight: 100; line-height: 1.5;">...HOW ABOUT...</h3>
           <p style="font-size: 12px; font-weight: 100; line-height: 0.5;">Whatever spectacular idea you have in mind, we probably have done it in full satisfaction</p>
       </div>
       <div class="" style="padding-top: 20px;">
@@ -368,8 +442,8 @@
           </article>
             
           <div style=" width: 60%;float: left; color: #000; text-align: right;">
-            <p style="margin-top: 2px;margin-right: 10%; font-size: 10px; text-align: right;"><strong>Gaming Convetion</strong></p>
-            <p style="font-size: 10px; margin-left: 10%;margin-right: 10%;">Jadon is proud to be the co-organizer of YOUMACON Battle Opera convention in 2019</p>
+            <p style="margin-top: 2px;margin-right: 10%; font-size: 11px; text-align: right;"><strong>Gaming Convetion</strong></p>
+            <p style="font-size: 11px; margin-left: 10%;margin-right: 10%;">Jadon is proud to be the co-organizer of YOUMACON Battle Opera convention in 2019</p>
           </div>
           
         </div>
@@ -379,17 +453,19 @@
           </article>
           
           <div style=" width: 60%;float: right; color: #000; text-align: left;">
-            <p style="margin-top: 2px;margin-left: 10%; font-size: 10px;"><strong>Art Exhibition</strong></p>
-            <p style="font-size: 10px; margin-left: 10%;margin-right: 10%;">Jadon worked with the lead sculpter Ta Quang Bao to open his art collection to the public</p>
+            <p style="margin-top: 2px;margin-left: 10%; font-size: 11px;"><strong>Art Exhibition</strong></p>
+            <p style="font-size: 11px; margin-left: 10%;margin-right: 10%;">Jadon worked with the lead sculpter Ta Quang Bao to open his art collection to the public</p>
           </div>
         </div>
         
-      </div>        
+      </div> 
+      <div  style="height: 0px;"></div>
+      <a href="Gallery.html#locConv"><i style="font-size: 0.7em; padding-top: 100px;"> ... our other events gallery ...</i></a>       
   </div>
 </div>
 
 <!-- POPUP SLIDESHOW -->
-<div id="myPopModal" class="popModal">
+<div id="myPopModal" class="popModal" style="z-index: 160;">
     <div class="popSlideshow-container">
         <span id="closePopup" class="popClose">&times;</span>
         <div class="popMySlides popFade">
@@ -419,51 +495,69 @@
 <footer class="container-fluid text-center">
   <div class="navbar navbar-default" style="border-bottom: gray double thin;border-top: gray double thin; height: 50px;">
 
-        <a href="#" style="padding: 30px;"><i class="fab fa-facebook-f fa-lg"></i></a>
-        <a href="#" style="padding: 30px;"><i class="fab fa-twitter fa-lg"></i></a>
-        <a href="#" style="padding: 30px;"><i class="fab fa-instagram fa-lg"></i></a>
-        <a href="#" style="padding: 30px;"><i class="fab fa-linkedin fa-lg"></i></a>
+        <a href="UnderConstruction.html" style="padding: 30px;"><i class="fab fa-facebook-f fa-lg"></i></a>
+        <a href="UnderConstruction.html" style="padding: 30px;"><i class="fab fa-twitter fa-lg"></i></a>
+        <a href="UnderConstruction.html" style="padding: 30px;"><i class="fab fa-instagram fa-lg"></i></a>
+        <a href="UnderConstruction.html" style="padding: 30px;"><i class="fab fa-linkedin fa-lg"></i></a>
     </div>
   </div>
 
-  <div class="navbar navbar-default" style="height: 100px; font-size: 0.5em; margin: 0; padding: 0,0,0,0;">
+  <div class="navbar navbar-default" style="height: 150px; font-size: 0.5em; margin: 0; padding: 0,0,0,0;">
     <a href="index.html" style="padding: 2%;">HOME</a>    
     <a href="services.html" style="padding: 2%;">SERVICES</a>
     <a href="Portfolio.html" style="padding: 2%;">PORTFOLIO</a>
     <a href="Gallery.html" style="padding: 2%;">GALLERY</a>
     <a href="Team.html" style="padding: 2%;">TEAM</a>
     <a href="Press.html" style="padding: 2%;">PRESS</a>
+    <a href="Reviews.html" style="padding: 2%;">REVIEWS</a>
     <a href="contact.html" style="padding: 2%;">CONTACT</a>
+  
+    <div class="container" style="margin: auto; padding-top: 50px; width: 65%;text-align: center; color: rgb(160, 160, 159);line-height: 5px;">
+      <p style="font-size: 10px;letter-spacing: 1px;">Copyright 2019 Jadon Event Management.</p>
+      <p style="font-size: 10px; letter-spacing: 1px;">All Rights Reserved.</p>
+      <a href="websiteMaterial.html"><p style="font-size: 8px; letter-spacing: 1px; padding-top: 10px;">about this Website</p></a>
+    </div>  
   </div>
 </footer>
-<!--form-->
-<div id="id01" class="modal" style="color: black;">
+
+<!--form feed back-->
+<div id="id01" class="modal" style="color: black; z-index: 150;">
   
-  <form class="modal-content animate" action="#" method="post" id="form" name="form">
+  <form class="modal-content animate" action="#" method="post" id="form" name="form" style="font-size: 15px; color: rgb(160, 160, 159);">
     <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="images/modal.PNG" alt="avatar" class="avatar">
-      <h1>~~~~~Write Us~~~~~</h1>
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal" style="color: black;">&times;</span>
+      <p style="display: inline-block; padding-right: 5px;"><i>have questions? ... DO</i></p>
+      <h1 style="display: inline-block; padding-right: 5px;"><i>WRITE</i></h1>
+      <p style="display: inline-block;"><i> us a message</i></p>
+      <br>
+      <p style="display: inline-block; padding-right: 5px;"><i> or tell us about your</i></p>
+      <h1 style="display: inline-block; padding-right: 5px;"><i>EVENT</i></h1>
+      <p style="display: inline-block;"><i>... OR anything in your mind</i> </p>
     </div>
-    <div class="container">
+    <div class="container" style="width: 80%;">
        
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your first name.." required><br>
             <label for="lname">Last Name</label>
             <input type="text" id="lname" name="lastname" placeholder="Your last name.." required><br>
 
+            <label for="compN">Company's Name</label>
+            <input type="text" id="compN" name="compname" placeholder="Your company's name.." ><br>
+            <label for="compT">Your Title</label>
+            <input type="text" id="compT" name="comptit" placeholder="Your title.."><br>
+
             <label for="email">Email:</label>
-            <input type="email" name="email" id="email" placeholder="Email" required title="123@gmail.com" pattern="^[a-zA-Z0-9]{3,}@[a-zA-Z0-9]{2,5}\.[a-zA-Z0-9]{2,4}$"><br>
+            <input type="email" name="email" id="email" placeholder="your Email" required title="123@gmail.com" pattern="^[a-zA-Z0-9]{3,}@[a-zA-Z0-9]{2,5}\.[a-zA-Z0-9]{2,4}$"><br>
 
             <label for="tel">Telephone:</label>
-            <input type="tel" name="tel" id="tel" placeholder="Telephone" required title="113" pattern="^[0-9]{3,12}$"><br>
+            <input type="tel" name="tel" id="tel" placeholder=" your Telephone" required title="113" pattern="^[0-9]{3,12}$"><br>
         
             <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." title="text" style="height:200px"></textarea><br>
+            <textarea id="subject" name="subject" placeholder="Write us.." title="text" style="height:200px"></textarea><br>
          
             <label for="country">Event type:</label>
             <h4>What kind of event?</h4>
-            <select id="event" name="event" required>
+            <select id="event" name="event">
               <option value="" style="display:none;">Event</option>
               <option value="Wedding">Wedding</option>
               <option value="Celebrations">Celebrations</option>
@@ -472,14 +566,14 @@
               <option value="Other">Other</option>
             </select><br>
             <label for="date">Event Date:</label>
-            <input type="date" name="date" id="date" required title="The month of the event must be greater than or equal to 3 months from the current month"><br>
-            <input type="submit" value="Submit"><br><br>
+            <input type="date" name="date" id="date" title="The month of the event must be greater than or equal to 3 months from the current month"><br>
+            <input type="submit" value="Submit" class="btn btn-default" style="background-color: gray;font-size: 14px; line-height: 20px;">
+            <input type="button" value="Cancel" class="btn btn-default btn-lg" onclick="document.getElementById('id01').style.display='none'" style="font-size: 14px; line-height: 20px; padding-top: 12px; padding-bottom: 12px; padding-left: 20px; padding-right: 20px;">
+
     </div>
-    <div class="container" style="background-color:#f1f1f1;">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Contact &emsp;<a href="https://globfone.com/call-phone/"><i style="font-size: xx-large;" class="fa fa-phone-volume"></i></a></span>
-    </div>
+
   </form>
 </div>
+
 </body>
 </html>

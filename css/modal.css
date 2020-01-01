@@ -12,6 +12,7 @@ input[type=text], select, textarea {
     }
     label{
     display: inline-block;
+    font-size: 12px;
     width: 15%;
     }
     input[type=email],input[type=tel]{

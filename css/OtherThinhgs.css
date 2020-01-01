@@ -1,0 +1,12 @@
+/* for dropdown menu on headers */
+.dropdown-menu {
+    min-width:300px;
+    }
+.textlink{
+    color: rgb(160, 160, 159);
+}
+.textlink:hover{
+    cursor: pointer;
+    color: #c9a16e;
+    text-decoration: none;
+    }

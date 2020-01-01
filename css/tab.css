@@ -41,9 +41,10 @@
   /*lam hien chu phan body*/
 section{
   color: black;
-  font-size: larger;
-  font-weight: bold;
+  /*font-size: larger;
+  font-weight: bold;*/
 }
+
 /*style form*/
 input[type=text], select, textarea {
 width: 100%;
