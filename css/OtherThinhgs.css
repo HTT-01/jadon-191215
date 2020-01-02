@@ -2,6 +2,12 @@
 .dropdown-menu {
     min-width:300px;
     }
+.scrollable-menu {
+    height: auto;
+    max-height: 550px;
+    overflow-x: hidden;
+    }
+
 .textlink{
     color: rgb(160, 160, 159);
 }

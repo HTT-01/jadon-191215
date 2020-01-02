@@ -52,7 +52,7 @@
       <ul class="nav navbar-nav navbar-midRight">
         <li class="dropdown">
           <a href="#" data-toggle="dropdown" class="dropdown-toggle"><i class="fas fa-bars fa-lg"></i></a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu scrollable-menu">
             <!-- Portfolio -->
             <li><a href="index.html"><span class="glyphicon glyphicon-chevron-right
               "></span>HOME</a></li>
@@ -65,7 +65,7 @@
                 <li style="opacity: 0.7;"><a href="Portfolio.html#locCorp" ><span class="fas fa-caret-right
                     "></span>Corporate</a></li>
                 <li style="opacity: 0.7;"><a href="Portfolio.html#locSchl" tabindex="-1"><span class="fas fa-caret-right
-                    "></span>School</a></li>
+                    "></span>School & Non Profit</a></li>
                 <li style="opacity: 0.7;"><a href="Portfolio.html#locPriv" tabindex="-1"><span class="fas fa-caret-right
                     "></span>Private</a></li>
                 <li style="opacity: 0.7;"><a href="Portfolio.html#locWedd" tabindex="-1"><span class="fas fa-caret-right
@@ -81,14 +81,25 @@
               "></span>Services</a>
               
               <ul class="dropdown-submenu">
+                
+                <!-- Portfolio -->
+                <li  class="dropdown-submenu">
+                  <a class="list-group-item dropdown-toggle" href="services.html#serviceIntro" style="margin: 0; padding: 0;"><span class="glyphicon glyphicon-chevron-right
+                  "></span>Services Offerings</a>
+                  
+                  <ul class="dropdown-submenu"  style="padding-left: 20px;">
+                    <li style="opacity: 0.7;"><a href="services-corporate.html" ><span class="fas fa-caret-right"></span>Corporate</a></li>
+                    <li style="opacity: 0.7;"><a href="services-private.html" ><span class="fas fa-caret-right"></span>Private</a></li>
+                    <li style="opacity: 0.7;"><a href="services-school_nonProf.html" ><span class="fas fa-caret-right"></span>School & Non-Profit</a></li>
+                    <li style="opacity: 0.7;"><a href="services-wedding.html" ><span class="fas fa-caret-right"></span>Wedding</a></li>
+                  </ul>
+                </li>                
                 <li style="opacity: 0.7;"><a href="services1.html" ><span class="fas fa-caret-right
                     "></span>Turn Key Premium</a></li>
                 <li style="opacity: 0.7;"><a href="services2.html" tabindex="-1"><span class="fas fa-caret-right
                     "></span>Limited Edition</a></li>
                 <li style="opacity: 0.7;"><a href="services3.html" tabindex="-1"><span class="fas fa-caret-right
                     "></span>À La Carte</a></li>
-                <li style="opacity: 0.7;"><a href="services.html#serviceIntro" tabindex="-1"><span class="fas fa-caret-right
-                    "></span>Service Offerings</a></li>
               </ul>
             </li>
             <li><a href="Gallery.html"><span class="glyphicon glyphicon-chevron-right"></span>Gallery</a></li>
@@ -130,14 +141,6 @@
   </div>
 </nav>
 
-<!-- First Container -->
-
-
-<!-- Second Container -->
-
-
-<!-- Third Container (Grid) -->
-
 <!-- Eighth Container (Gallery layout) -->
 <div class="container-fluid text-center bg-grey" style="padding-bottom: 0; padding-top: 0;">
   <div style="margin: auto; width: 65%;text-align: center; color: rgb(160, 160, 159);">
@@ -148,7 +151,7 @@
     </div>
     <div style="height: 50px;"> 
       <ul class="nav navbar-nav navbar-center" style="font-size: 0.8em; margin: 0; padding: 0; text-align: center;">
-        <li style="font-size: 15px; padding-left: 0px; padding-right: 0px;"><a href="#locSchl">SCHOOL EVENTS</a></li>
+        <li style="font-size: 15px; padding-left: 0px; padding-right: 0px;"><a href="#locSchl">SCHOOL & NON-PROFIT</a></li>
         <li style="font-size: 30px; padding-left: 0px; padding-right: 0px;"><a href="#locWedd">WEDDING</a></li>
         <li style="font-size: 20px; padding-left: 0px; padding-right: 0px;"><a href="#locCorp">CORPORATE</a></li>
         <li style="font-size: 25px; padding-left: 0px; padding-right: 0px;"><a href="#locPriv">PRIVATE</a></li>
@@ -174,7 +177,7 @@
                 <div class="thumbnail" style="border: none; color: #000; text-align: justify; padding-bottom: 5px; padding-top: 0px;" onclick="createPopup('schl02')" id="popBtn">
                   <img src="images/Final/School-02/adrian-dascal-b4kBc7hFG74-unsplash.jpg" alt="New York">
                   <span id="locPriv" ></span>
-                  <h4 style=" color: #000; vertical-align: text-top; text-align:right; height: 100px;">SCHOOL EVENT</h4>
+                  <h4 style=" color: #000; vertical-align: text-top; text-align:right; height: 100px;">SCHOOL & NON-PROFIT</h4>
                 </div>
 
                 <!-- Private-01 -->                    
@@ -272,7 +275,7 @@
             <!-- School-04 -->      
               <div class="thumbnail" style="border: none; color: #000; text-align: justify;" onclick="createPopup('schl04')" id="popBtn">
                 <img src="images/Final/School-04/md-duran-Q1nBeFIl5Xw-unsplash.jpg" alt="New York">
-                <h3>SCHOOL EVENTS</h3>
+                <h2>SCHOOL & NON-PROFIT</h2>
               </div> 
 
           </div>
@@ -296,7 +299,7 @@
             <div class="thumbnail" style="border: none; color: #000; text-align: justify;" onclick="createPopup('conV01')" id="popBtn">
               <img src="images/Final/Convention-01/stem-list-C6K4mUceE9I-unsplash.jpg" alt="New York">
             </div> 
-            <h4 style=" color: #000; text-align:right;">GAMING CONVENTION</h4>
+            <h2 style=" color: #000; text-align:right;">GAMING CONVENTION</h2>
           </div>
 
         </div>
@@ -468,7 +471,7 @@
             <option value="Wedding">Wedding</option>
             <option value="Celebrations">Celebrations</option>
             <option value="Corporate">Corporate Events</option>
-            <option value="School Fundraising & Event Planning">School Fundraising & Event Planning</option>
+            <option value="School & Non-Profit">School & Non-Profit</option>
             <option value="Other">Other</option>
           </select><br>
           <label for="date">Event Date:</label>
